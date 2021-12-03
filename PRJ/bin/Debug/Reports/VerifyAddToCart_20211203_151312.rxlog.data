@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="39.2s"
+		durationms="39196"
+		type="root"
+		rid="7a40508cdd32a54"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Tolunay"
+		rxversion="10.1.3.0"
+		host="DESKTOP-M9C71O2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="3.12.2021 15:13:16"
+		timestampiso="2021-12-03T12:13:16"
+		endtime="3.12.2021 15:13:56"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="VerifyAddToCart">
+		<detail>
+			VerifyAddToCart
+		</detail>
+		<errormessage>
+			Item 'PRJRepository.Dropdown.InputTagK' is no InputTag.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.584"
+			timeRelativeToTestModuleStartTime="00:08.584"
+			timeWallClock="15:13:25"
+			time="00:08.584"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Dropdown.InputTagK' at 98;23.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/container//header[#'main-header']/div[3]/div/div/div/div[2]/form[@action='https://www.gittigidiyor.com/arama/']/div/div[1]/?/?/input[@name='k']"
+				itempath=".//header[#'main-header']/div[3]/div/div/div/div[2]/form[@action='https://www.gittigidiyor.com/arama/']/div/div[1]/?/?/input[@name='k']"
+				fullname="PRJRepository.Dropdown.InputTagK"
+				id="5ea63a2f09984e90b7282dd27fa5acf5"
+				timeout="60000"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:39.053"
+			timeRelativeToTestModuleStartTime="00:39.053"
+			timeWallClock="15:13:55"
+			time="00:39.053"
+			level="Info"
+			category="User"
+			errimg="images_VerifyAd_db0d36b0\VerifyAd_db0d36b0_9af9e014_trace.jpg"
+			errthumb="images_VerifyAd_db0d36b0\VerifyAd_db0d36b0_9af9e014_trace_thumb.jpg">
+			<message>
+				Item 'InputTagK' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs"
+				codeline="83"
+				loglvl="Info"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:39.057"
+			timeRelativeToTestModuleStartTime="00:39.057"
+			timeWallClock="15:13:55"
+			time="00:39.057"
+			level="Warn"
+			category="Repository"
+			errimg="images_VerifyAd_db0d36b0\VerifyAd_db0d36b0_9af9e014_trace.jpg"
+			errthumb="images_VerifyAd_db0d36b0\VerifyAd_db0d36b0_9af9e014_trace_thumb.jpg">
+			<message>
+				Failed to update the cached element for folder 'PRJRepository.Dropdown'. In order to analyze this issue, please contact support at https://www.ranorex.com/support-query/ with a copy of this report, the repository, and a snapshot of the automated application.
+			</message>
+			<metainfo
+				descendantPath=".//header[#'main-header']/div[3]/div/div/div/div[2]/form[@action='https://www.gittigidiyor.com/arama/']/div/div[1]/?/?/input[@name='k']"
+				invertedPath="self::input[@name='k']/parent::?/parent::?/parent::div/parent::div/parent::form[@action='https://www.gittigidiyor.com/arama/']/parent::div/parent::div/parent::div/parent::div/parent::div/parent::header[#'main-header']/ancestor-or-self::*"
+				basePathToCachedFolder="/container"
+				invertedBasePath="self::container/parent::host/self::*"
+				AbsoluteBasePath="/container"
+				folderSearchTimeout="30s"
+				folderElementCandidates.Count="0"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs"
+				codeline="83"
+				loglvl="Warn"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:39.065"
+			timeRelativeToTestModuleStartTime="00:39.065"
+			timeWallClock="15:13:55"
+			time="00:39.065"
+			level="Error"
+			category="Module"
+			errimg="images_VerifyAd_db0d36b0\VerifyAd_db0d36b0_9af9e014_trace.jpg"
+			errthumb="images_VerifyAd_db0d36b0\VerifyAd_db0d36b0_9af9e014_trace_thumb.jpg">
+			<message>
+				Item 'PRJRepository.Dropdown.InputTagK' is no InputTag.<br/>The element does not support the required capability 'inputtag'.
+			</message>
+			<metainfo
+				stacktrace="   konum: Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   konum: Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   konum: PRJ.PRJRepositoryFolders.DropdownAppFolder.get_InputTagK() C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\PRJRepository.cs içinde: satır 714&#13;&#10;   konum: PRJ.VerifyAddToCart.Ranorex.Core.Testing.ITestModule.Run() C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs içinde: satır 83&#13;&#10;   konum: Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs içinde"
+				codeline="83"
+				loglvl="Error"
+				id="5ea63a2f09984e90b7282dd27fa5acf5"
+				path="/container//header[#'main-header']/div[3]/div/div/div/div[2]/form[@action='https://www.gittigidiyor.com/arama/']/div/div[1]/?/?/input[@name='k']"
+				fullname="PRJRepository.Dropdown.InputTagK"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

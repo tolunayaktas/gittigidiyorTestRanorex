@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.1m"
+		durationms="67587"
+		type="root"
+		rid="f68af895b745fed"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Tolunay"
+		rxversion="10.1.3.0"
+		host="DESKTOP-M9C71O2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="3.12.2021 14:38:24"
+		timestampiso="2021-12-03T11:38:24"
+		endtime="3.12.2021 14:39:31"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="VerifyAddToCart">
+		<detail>
+			VerifyAddToCart
+		</detail>
+		<errormessage>
+			Failed to find item 'PRJRepository.GittiGidiyorTuerkiyeninOEncueAlışve1.F2r72j3JNDvfB'. Please check that your whitelist allows Ranorex to access the process.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.286"
+			timeRelativeToTestModuleStartTime="00:07.286"
+			timeWallClock="14:38:31"
+			time="00:07.286"
+			level="Info"
+			category="Mouse"
+			errimg="images_VerifyAd_d4934c03\VerifyAd_d4934c03_347e1dab_trace.jpg"
+			errthumb="images_VerifyAd_d4934c03\VerifyAd_d4934c03_347e1dab_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'GittiGidiyorTuerkiyeninOEncueAlışve1.F2r72j3JNDvfB' at 118;194.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.gittigidiyor.com']//header[#'main-header']/div[4]/div//nav"
+				itempath=".//header[#'main-header']/div[4]/div//nav"
+				fullname="PRJRepository.GittiGidiyorTuerkiyeninOEncueAlışve1.F2r72j3JNDvfB"
+				id="21edaa5a1ca14aeb9b7fa7564bbb9dcc"
+				timeout="60000"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:07.366"
+			timeRelativeToTestModuleStartTime="01:07.366"
+			timeWallClock="14:39:31"
+			time="01:07.366"
+			level="Info"
+			category="User"
+			errimg="images_VerifyAd_d4934c03\VerifyAd_d4934c03_aedbd525_trace.jpg"
+			errthumb="images_VerifyAd_d4934c03\VerifyAd_d4934c03_aedbd525_trace_thumb.jpg">
+			<message>
+				Item 'F2r72j3JNDvfB' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs"
+				codeline="83"
+				loglvl="Info"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:07.466"
+			timeRelativeToTestModuleStartTime="01:07.466"
+			timeWallClock="14:39:31"
+			time="01:07.466"
+			level="Error"
+			category="Module"
+			errimg="images_VerifyAd_d4934c03\VerifyAd_d4934c03_81ff5863_trace.jpg"
+			errthumb="images_VerifyAd_d4934c03\VerifyAd_d4934c03_81ff5863_trace_thumb.jpg">
+			<message>
+				Failed to find item 'PRJRepository.GittiGidiyorTuerkiyeninOEncueAlışve1.F2r72j3JNDvfB'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path '/dom[@domain='www.gittigidiyor.com']//header[#'main-header']/div[4]/div//nav' at step 'descendant-or-self::header[#'main-header']' after 196 attempts within 1m.
+			</message>
+			<metainfo
+				stacktrace="   konum: Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   konum: Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   konum: PRJ.PRJRepositoryFolders.GittiGidiyorTuerkiyeninOEncueAlışve1AppFolder.get_F2r72j3JNDvfB() C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\PRJRepository.cs içinde: satır 937&#13;&#10;   konum: PRJ.VerifyAddToCart.Ranorex.Core.Testing.ITestModule.Run() C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs içinde: satır 83&#13;&#10;   konum: Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs"
+				codeline="83"
+				type="repoitem"
+				path="/dom[@domain='www.gittigidiyor.com']//header[#'main-header']/div[4]/div//nav"
+				itempath=".//header[#'main-header']/div[4]/div//nav"
+				fullname="PRJRepository.GittiGidiyorTuerkiyeninOEncueAlışve1.F2r72j3JNDvfB"
+				id="21edaa5a1ca14aeb9b7fa7564bbb9dcc"
+				timeout="60000"
+				failedStep="descendant-or-self::header[#'main-header']"
+				bestPathPrefix="/dom[@domain='www.gittigidiyor.com']"
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

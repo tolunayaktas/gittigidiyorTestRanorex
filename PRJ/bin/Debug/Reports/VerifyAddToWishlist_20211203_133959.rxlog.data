@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="15.55s"
+		durationms="15553"
+		type="root"
+		rid="2615acec254aedd2"
+		totalerrorcount="0"
+		totalwarningcount="3"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Tolunay"
+		rxversion="10.1.3.0"
+		host="DESKTOP-M9C71O2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="3.12.2021 13:40:04"
+		timestampiso="2021-12-03T10:40:04"
+		endtime="3.12.2021 13:40:19"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="VerifyAddToWishlist">
+		<detail>
+			VerifyAddToWishlist
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.831"
+			timeRelativeToTestModuleStartTime="00:09.831"
+			timeWallClock="13:40:13"
+			time="00:09.831"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.AddProduct1' at 15;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.gittigidiyor.com']//div[#'__next']/main/div[2]/div[3]/div/div[2]/div/div[3]/div[3]/ul/li[1]/article//svg"
+				itempath=".//div[#'__next']/main/div[2]/div[3]/div/div[2]/div/div[3]/div[3]/ul/li[1]/article//svg"
+				fullname="PRJRepository.ApplicationUnderTest.AddProduct1"
+				id="e11d9587b6224ed3b89106761da8463d"
+				timeout="60000"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToWishlist.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.015"
+			timeRelativeToTestModuleStartTime="00:13.015"
+			timeWallClock="13:40:17"
+			time="00:13.015"
+			level="Warn"
+			category="Click">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>(null)
+			</message>
+			<metainfo
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToWishlist.cs"
+				codeline="83"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.835"
+			timeRelativeToTestModuleStartTime="00:13.835"
+			timeWallClock="13:40:17"
+			time="00:13.835"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.AddProduct2' at 15;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.gittigidiyor.com']//div[#'__next']/main/div[2]/div[3]/div/div[2]/div/div[3]/div[3]/ul/li[2]/article//svg"
+				itempath=".//div[#'__next']/main/div[2]/div[3]/div/div[2]/div/div[3]/div[3]/ul/li[2]/article//svg"
+				fullname="PRJRepository.ApplicationUnderTest.AddProduct2"
+				id="1b284ca827474e4c89a159814c0ae7db"
+				timeout="60000"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToWishlist.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.047"
+			timeRelativeToTestModuleStartTime="00:14.047"
+			timeWallClock="13:40:18"
+			time="00:14.047"
+			level="Warn"
+			category="Click">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>(null)
+			</message>
+			<metainfo
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToWishlist.cs"
+				codeline="87"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.802"
+			timeRelativeToTestModuleStartTime="00:14.802"
+			timeWallClock="13:40:18"
+			time="00:14.802"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.MyAccount_Favourites' at 71;204.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.gittigidiyor.com']//header[#'main-header']/div[4]/div/div/div/div[3]/div/div[2]"
+				itempath=".//header[#'main-header']/div[4]/div/div/div/div[3]/div/div[2]"
+				fullname="PRJRepository.ApplicationUnderTest.MyAccount_Favourites"
+				id="dd49a5ca65db4338894777519c1a7834"
+				timeout="60000"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToWishlist.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.978"
+			timeRelativeToTestModuleStartTime="00:14.978"
+			timeWallClock="13:40:19"
+			time="00:14.978"
+			level="Warn"
+			category="Click">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>(null)
+			</message>
+			<metainfo
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToWishlist.cs"
+				codeline="91"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+	</activity>
+</report>

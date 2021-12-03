@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.4m"
+		durationms="84549"
+		type="root"
+		rid="be61aae5c55d60"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Tolunay"
+		rxversion="10.1.3.0"
+		host="DESKTOP-M9C71O2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="2.12.2021 23:40:58"
+		timestampiso="2021-12-02T20:40:58"
+		endtime="2.12.2021 23:42:22"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="VerifyAddToCart">
+		<detail>
+			VerifyAddToCart
+		</detail>
+		<errormessage>
+			Failed to find item 'PRJRepository.ApplicationUnderTest.SepeteEkle'. Please check that your whitelist allows Ranorex to access the process.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.192"
+			timeRelativeToTestModuleStartTime="00:21.192"
+			timeWallClock="23:41:19"
+			time="00:21.192"
+			level="Info"
+			category="Mouse"
+			errimg="images_VerifyAd_2bc1e9ff\VerifyAd_2bc1e9ff_355a170d_trace.jpg"
+			errthumb="images_VerifyAd_2bc1e9ff\VerifyAd_2bc1e9ff_355a170d_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.SepeteEkle' at 54;4.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.gittigidiyor.com']//div[#'__next']/main/div/div/section[5]/section/div/div/div/div/div/div/div[2]/div[1]/div[7]/article/?/?/footer/button/span[@innertext='Sepete Ekle']"
+				itempath=".//div[#'__next']/main/div/div/section[5]/section/div/div/div/div/div/div/div[2]/div[1]/div[7]/article/?/?/footer/button/span[@innertext='Sepete Ekle']"
+				fullname="PRJRepository.ApplicationUnderTest.SepeteEkle"
+				id="8c93f2c9f498481092cc7f67ff43af73"
+				timeout="60000"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:24.044"
+			timeRelativeToTestModuleStartTime="01:24.044"
+			timeWallClock="23:42:22"
+			time="01:24.044"
+			level="Info"
+			category="User"
+			errimg="images_VerifyAd_2bc1e9ff\VerifyAd_2bc1e9ff_ce549ed8_trace.jpg"
+			errthumb="images_VerifyAd_2bc1e9ff\VerifyAd_2bc1e9ff_ce549ed8_trace_thumb.jpg">
+			<message>
+				Item 'SepeteEkle' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs"
+				codeline="83"
+				loglvl="Info"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:24.128"
+			timeRelativeToTestModuleStartTime="01:24.128"
+			timeWallClock="23:42:22"
+			time="01:24.128"
+			level="Error"
+			category="Module"
+			errimg="images_VerifyAd_2bc1e9ff\VerifyAd_2bc1e9ff_6d83f741_trace.jpg"
+			errthumb="images_VerifyAd_2bc1e9ff\VerifyAd_2bc1e9ff_6d83f741_trace_thumb.jpg">
+			<message>
+				Failed to find item 'PRJRepository.ApplicationUnderTest.SepeteEkle'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path '/dom[@domain='www.gittigidiyor.com']//div[#'__next']/main/div/div/section[5]/section/div/div/div/div/div/div/div[2]/div[1]/div[7]/article/?/?/footer/button/span[@innertext='Sepete Ekle']' at step 'div' after 132 attempts within 1m.
+			</message>
+			<metainfo
+				stacktrace="   konum: Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   konum: Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   konum: PRJ.PRJRepositoryFolders.ApplicationUnderTestAppFolder.get_SepeteEkle() C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\PRJRepository.cs içinde: satır 286&#13;&#10;   konum: PRJ.VerifyAddToCart.Ranorex.Core.Testing.ITestModule.Run() C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs içinde: satır 83&#13;&#10;   konum: Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs"
+				codeline="83"
+				type="repoitem"
+				path="/dom[@domain='www.gittigidiyor.com']//div[#'__next']/main/div/div/section[5]/section/div/div/div/div/div/div/div[2]/div[1]/div[7]/article/?/?/footer/button/span[@innertext='Sepete Ekle']"
+				itempath=".//div[#'__next']/main/div/div/section[5]/section/div/div/div/div/div/div/div[2]/div[1]/div[7]/article/?/?/footer/button/span[@innertext='Sepete Ekle']"
+				fullname="PRJRepository.ApplicationUnderTest.SepeteEkle"
+				id="8c93f2c9f498481092cc7f67ff43af73"
+				timeout="60000"
+				failedStep="div"
+				bestPathPrefix="/dom[@domain='www.gittigidiyor.com']/descendant-or-self::div[#'__next']/main"
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

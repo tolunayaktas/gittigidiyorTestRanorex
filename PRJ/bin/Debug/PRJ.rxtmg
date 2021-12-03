@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="PRJ"
+      id="6889b3cc-12a5-4c70-bde1-632efbf53732"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="PRJ"
+      id="6889b3cc-12a5-4c70-bde1-632efbf53732"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

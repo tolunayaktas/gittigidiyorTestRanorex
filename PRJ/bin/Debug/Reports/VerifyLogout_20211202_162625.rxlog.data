@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="9.08s"
+		durationms="9075"
+		type="root"
+		rid="43c3c5d805ccd60"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Tolunay"
+		rxversion="10.1.3.0"
+		host="DESKTOP-M9C71O2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="2.12.2021 16:26:30"
+		timestampiso="2021-12-02T13:26:30"
+		endtime="2.12.2021 16:26:39"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="VerifyLogout">
+		<detail>
+			VerifyLogout
+		</detail>
+		<errormessage>
+			Failed to move to location '343;53' within element '{WebDocument:GittiGidiyor - Türkiye'nin Öncü Alışveriş Sitesi}'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.033"
+			timeRelativeToTestModuleStartTime="00:06.033"
+			timeWallClock="16:26:36"
+			time="00:06.033"
+			level="Info"
+			category="Mouse"
+			errimg="images_VerifyLo_b429dd59\VerifyLo_b429dd59_1dda5ab8_trace.jpg"
+			errthumb="images_VerifyLo_b429dd59\VerifyLo_b429dd59_1dda5ab8_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'Dropdown' at 343;53.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/container"
+				itempath="/container"
+				fullname="PRJRepository.Dropdown.Self"
+				id="16356e4ff4cf480ca32d641f9c650839"
+				timeout="30000"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyLogout.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.876"
+			timeRelativeToTestModuleStartTime="00:08.876"
+			timeWallClock="16:26:39"
+			time="00:08.876"
+			level="Warn"
+			category="Repository"
+			errimg="images_VerifyLo_b429dd59\VerifyLo_b429dd59_0041b23e_trace.jpg"
+			errthumb="images_VerifyLo_b429dd59\VerifyLo_b429dd59_0041b23e_trace_thumb.jpg">
+			<message>
+				Failed to update the cached element for folder 'PRJRepository.Dropdown'. In order to analyze this issue, please contact support at https://www.ranorex.com/support-query/ with a copy of this report, the repository, and a snapshot of the automated application.
+			</message>
+			<metainfo
+				descendantPath=""
+				invertedPath=""
+				basePathToCachedFolder="/container"
+				invertedBasePath="self::container/parent::host/self::*"
+				AbsoluteBasePath="/container"
+				folderSearchTimeout="30s"
+				folderElementCandidates.Count="1"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyLogout.cs"
+				codeline="83"
+				loglvl="Warn"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.953"
+			timeRelativeToTestModuleStartTime="00:08.953"
+			timeWallClock="16:26:39"
+			time="00:08.953"
+			level="Error"
+			category="Module"
+			errimg="images_VerifyLo_b429dd59\VerifyLo_b429dd59_a0ddeeac_trace.jpg"
+			errthumb="images_VerifyLo_b429dd59\VerifyLo_b429dd59_a0ddeeac_trace_thumb.jpg">
+			<message>
+				Failed to move to location '343;53' within element '{WebDocument:GittiGidiyor - Türkiye'nin Öncü Alışveriş Sitesi}'.<br/>The pointer cannot be moved to point '{X=343,Y=10678}' since it is outside of the visible desktop.
+			</message>
+			<metainfo
+				stacktrace="   konum: Ranorex.Mouse.MoveTo(Element element, Location location, Duration moveTime)
+   konum: Ranorex.Mouse.Click(Element element, MouseButtons buttons, Location location, Int32 times, Duration moveTime)
+   konum: Ranorex.Adapter.Click(MouseButtons buttons, Location location, Int32 times, Duration moveTime, Boolean showOutOfBoundsWarning)
+   konum: Ranorex.Adapter.Click(Location location)
+   konum: PRJ.VerifyLogout.Ranorex.Core.Testing.ITestModule.Run() C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyLogout.cs içinde: satır 83
+   konum: Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyLogout.cs"
+				codeline="83"
+				type="repoitem"
+				path="/container"
+				itempath="/container"
+				fullname="PRJRepository.Dropdown.Self"
+				id="16356e4ff4cf480ca32d641f9c650839"
+				timeout="30000"
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

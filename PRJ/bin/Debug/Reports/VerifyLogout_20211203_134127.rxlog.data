@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.1m"
+		durationms="67605"
+		type="root"
+		rid="8b0a4e02fe266ca"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Tolunay"
+		rxversion="10.1.3.0"
+		host="DESKTOP-M9C71O2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="3.12.2021 13:41:32"
+		timestampiso="2021-12-03T10:41:32"
+		endtime="3.12.2021 13:42:40"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="VerifyLogout">
+		<detail>
+			VerifyLogout
+		</detail>
+		<errormessage>
+			Failed to find item 'PRJRepository.ApplicationUnderTest.Logout'. Please check that your whitelist allows Ranorex to access the process.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.298"
+			timeRelativeToTestModuleStartTime="00:07.298"
+			timeWallClock="13:41:40"
+			time="00:07.298"
+			level="Info"
+			category="Mouse"
+			errimg="images_VerifyLo_2071dd76\VerifyLo_2071dd76_0c2aa086_trace.jpg"
+			errthumb="images_VerifyLo_2071dd76\VerifyLo_2071dd76_0c2aa086_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Logout' at 68;730.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.gittigidiyor.com']//header[#'main-header']/div[3]/div/div/div/div[3]/div/div[1]"
+				itempath=".//header[#'main-header']/div[3]/div/div/div/div[3]/div/div[1]"
+				fullname="PRJRepository.ApplicationUnderTest.Logout"
+				id="da030965e58948c08cbf51253c5a6b8e"
+				timeout="60000"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyLogout.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:07.379"
+			timeRelativeToTestModuleStartTime="01:07.379"
+			timeWallClock="13:42:40"
+			time="01:07.379"
+			level="Info"
+			category="User"
+			errimg="images_VerifyLo_2071dd76\VerifyLo_2071dd76_5ee4143d_trace.jpg"
+			errthumb="images_VerifyLo_2071dd76\VerifyLo_2071dd76_5ee4143d_trace_thumb.jpg">
+			<message>
+				Item 'Logout' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyLogout.cs"
+				codeline="83"
+				loglvl="Info"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:07.471"
+			timeRelativeToTestModuleStartTime="01:07.471"
+			timeWallClock="13:42:40"
+			time="01:07.471"
+			level="Error"
+			category="Module"
+			errimg="images_VerifyLo_2071dd76\VerifyLo_2071dd76_4b9e87dc_trace.jpg"
+			errthumb="images_VerifyLo_2071dd76\VerifyLo_2071dd76_4b9e87dc_trace_thumb.jpg">
+			<message>
+				Failed to find item 'PRJRepository.ApplicationUnderTest.Logout'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path '/dom[@domain='www.gittigidiyor.com']//header[#'main-header']/div[3]/div/div/div/div[3]/div/div[1]' at step 'descendant-or-self::header[#'main-header']' after 216 attempts within 1m.
+			</message>
+			<metainfo
+				stacktrace="   konum: Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   konum: Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   konum: PRJ.PRJRepositoryFolders.ApplicationUnderTestAppFolder.get_Logout() C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\PRJRepository.cs içinde: satır 432&#13;&#10;   konum: PRJ.VerifyLogout.Ranorex.Core.Testing.ITestModule.Run() C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyLogout.cs içinde: satır 83&#13;&#10;   konum: Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyLogout.cs"
+				codeline="83"
+				type="repoitem"
+				path="/dom[@domain='www.gittigidiyor.com']//header[#'main-header']/div[3]/div/div/div/div[3]/div/div[1]"
+				itempath=".//header[#'main-header']/div[3]/div/div/div/div[3]/div/div[1]"
+				fullname="PRJRepository.ApplicationUnderTest.Logout"
+				id="da030965e58948c08cbf51253c5a6b8e"
+				timeout="60000"
+				failedStep="descendant-or-self::header[#'main-header']"
+				bestPathPrefix="/dom[@domain='www.gittigidiyor.com']"
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,12 @@
+C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\bin\Debug\PRJ.rxtmg
+C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\bin\Debug\PRJ.rxtst
+C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\bin\Debug\PRJ.exe.config
+C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\bin\Debug\PRJ.xml
+C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\bin\Debug\PRJ.exe
+C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\bin\Debug\PRJ.pdb
+C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\obj\x86\Debug\PRJ.csproj.AssemblyReference.cache
+C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\obj\x86\Debug\PRJ.csproj.CoreCompileInputs.cache
+C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\obj\x86\Debug\PRJ.csproj.CopyComplete
+C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\obj\x86\Debug\PRJ.exe
+C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\obj\x86\Debug\PRJ.pdb

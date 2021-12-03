@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="37.78s"
+		durationms="37776"
+		type="root"
+		rid="3796d7e3da628ca"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Tolunay"
+		rxversion="10.1.3.0"
+		host="DESKTOP-M9C71O2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="3.12.2021 12:12:57"
+		timestampiso="2021-12-03T09:12:57"
+		endtime="3.12.2021 12:13:35"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="VerifyNotFilling">
+		<detail>
+			VerifyNotFilling
+		</detail>
+		<errormessage>
+			Item 'PRJRepository.ApplicationUnderTest.SubmitForm' is no InputTag.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.347"
+			timeRelativeToTestModuleStartTime="00:07.347"
+			timeWallClock="12:13:04"
+			time="00:07.347"
+			level="Info"
+			category="Mouse"
+			errimg="images_VerifyNo_b4d27a0b\VerifyNo_b4d27a0b_ae75910a_trace.jpg"
+			errthumb="images_VerifyNo_b4d27a0b\VerifyNo_b4d27a0b_ae75910a_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.SubmitForm' at 111;28.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.gittigidiyor.com']/descendant-or-self::*/input[#'SubmitForm']"
+				itempath="descendant-or-self::*/input[#'SubmitForm']"
+				fullname="PRJRepository.ApplicationUnderTest.SubmitForm"
+				id="4f80534b85ce4cf5b645bdcd959713a8"
+				timeout="60000"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyNotFilling.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:37.495"
+			timeRelativeToTestModuleStartTime="00:37.495"
+			timeWallClock="12:13:34"
+			time="00:37.495"
+			level="Info"
+			category="User"
+			errimg="images_VerifyNo_b4d27a0b\VerifyNo_b4d27a0b_9566c72d_trace.jpg"
+			errthumb="images_VerifyNo_b4d27a0b\VerifyNo_b4d27a0b_9566c72d_trace_thumb.jpg">
+			<message>
+				Item 'SubmitForm' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyNotFilling.cs"
+				codeline="83"
+				loglvl="Info"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:37.528"
+			timeRelativeToTestModuleStartTime="00:37.528"
+			timeWallClock="12:13:34"
+			time="00:37.528"
+			level="Error"
+			category="Module"
+			errimg="images_VerifyNo_b4d27a0b\VerifyNo_b4d27a0b_9566c72d_trace.jpg"
+			errthumb="images_VerifyNo_b4d27a0b\VerifyNo_b4d27a0b_9566c72d_trace_thumb.jpg">
+			<message>
+				Item 'PRJRepository.ApplicationUnderTest.SubmitForm' is no InputTag.<br/>The element does not support the required capability 'inputtag'.
+			</message>
+			<metainfo
+				stacktrace="   konum: Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   konum: Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   konum: PRJ.PRJRepositoryFolders.ApplicationUnderTestAppFolder.get_SubmitForm() C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\PRJRepository.cs içinde: satır 262&#13;&#10;   konum: PRJ.VerifyNotFilling.Ranorex.Core.Testing.ITestModule.Run() C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyNotFilling.cs içinde: satır 83&#13;&#10;   konum: Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyNotFilling.cs içinde"
+				codeline="83"
+				loglvl="Error"
+				id="4f80534b85ce4cf5b645bdcd959713a8"
+				path="/dom[@domain='www.gittigidiyor.com']/descendant-or-self::*/input[#'SubmitForm']"
+				fullname="PRJRepository.ApplicationUnderTest.SubmitForm"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

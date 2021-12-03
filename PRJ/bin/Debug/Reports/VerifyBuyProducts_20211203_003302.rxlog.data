@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="39.25s"
+		durationms="39254"
+		type="root"
+		rid="1dfe30bf2a76828"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Tolunay"
+		rxversion="10.1.3.0"
+		host="DESKTOP-M9C71O2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="3.12.2021 00:33:06"
+		timestampiso="2021-12-02T21:33:06"
+		endtime="3.12.2021 00:33:46"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="VerifyBuyProducts">
+		<detail>
+			VerifyBuyProducts
+		</detail>
+		<errormessage>
+			Item 'PRJRepository.Dropdown.Submit' is no InputTag.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.061"
+			timeRelativeToTestModuleStartTime="00:09.061"
+			timeWallClock="00:33:15"
+			time="00:09.061"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Dropdown.Submit' at 127;23.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/container/descendant-or-self::*/div[#'cart-continue-button-container']/input[@type='submit']"
+				itempath="descendant-or-self::*/div[#'cart-continue-button-container']/input[@type='submit']"
+				fullname="PRJRepository.Dropdown.Submit"
+				id="8b279542f0f14136aa1a39f173085e45"
+				timeout="60000"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyBuyProducts.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:39.139"
+			timeRelativeToTestModuleStartTime="00:39.139"
+			timeWallClock="00:33:46"
+			time="00:39.139"
+			level="Info"
+			category="User"
+			errimg="images_VerifyBu_2e1f52ad\VerifyBu_2e1f52ad_050d812d_trace.jpg"
+			errthumb="images_VerifyBu_2e1f52ad\VerifyBu_2e1f52ad_050d812d_trace_thumb.jpg">
+			<message>
+				Item 'Submit' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyBuyProducts.cs"
+				codeline="83"
+				loglvl="Info"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:39.144"
+			timeRelativeToTestModuleStartTime="00:39.144"
+			timeWallClock="00:33:46"
+			time="00:39.144"
+			level="Warn"
+			category="Repository"
+			errimg="images_VerifyBu_2e1f52ad\VerifyBu_2e1f52ad_050d812d_trace.jpg"
+			errthumb="images_VerifyBu_2e1f52ad\VerifyBu_2e1f52ad_050d812d_trace_thumb.jpg">
+			<message>
+				Failed to update the cached element for folder 'PRJRepository.Dropdown'. In order to analyze this issue, please contact support at https://www.ranorex.com/support-query/ with a copy of this report, the repository, and a snapshot of the automated application.
+			</message>
+			<metainfo
+				descendantPath="descendant-or-self::*/div[#'cart-continue-button-container']/input[@type='submit']"
+				invertedPath="self::input[@type='submit']/parent::div[#'cart-continue-button-container']/parent::*/ancestor-or-self::*"
+				basePathToCachedFolder="/container"
+				invertedBasePath="self::container/parent::host/self::*"
+				AbsoluteBasePath="/container"
+				folderSearchTimeout="30s"
+				folderElementCandidates.Count="0"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyBuyProducts.cs"
+				codeline="83"
+				loglvl="Warn"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:39.151"
+			timeRelativeToTestModuleStartTime="00:39.151"
+			timeWallClock="00:33:46"
+			time="00:39.151"
+			level="Error"
+			category="Module"
+			errimg="images_VerifyBu_2e1f52ad\VerifyBu_2e1f52ad_050d812d_trace.jpg"
+			errthumb="images_VerifyBu_2e1f52ad\VerifyBu_2e1f52ad_050d812d_trace_thumb.jpg">
+			<message>
+				Item 'PRJRepository.Dropdown.Submit' is no InputTag.<br/>The element does not support the required capability 'inputtag'.
+			</message>
+			<metainfo
+				stacktrace="   konum: Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   konum: Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   konum: PRJ.PRJRepositoryFolders.DropdownAppFolder.get_Submit() C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\PRJRepository.cs içinde: satır 623&#13;&#10;   konum: PRJ.VerifyBuyProducts.Ranorex.Core.Testing.ITestModule.Run() C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyBuyProducts.cs içinde: satır 83&#13;&#10;   konum: Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyBuyProducts.cs içinde"
+				codeline="83"
+				loglvl="Error"
+				id="8b279542f0f14136aa1a39f173085e45"
+				path="/container/descendant-or-self::*/div[#'cart-continue-button-container']/input[@type='submit']"
+				fullname="PRJRepository.Dropdown.Submit"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

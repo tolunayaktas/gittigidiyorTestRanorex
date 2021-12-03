@@ -1,0 +1,1027 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PRJ</name>
+    </assembly>
+    <members>
+        <member name="T:PRJ.SSS">
+             <summary>
+            The SSS recording.
+             </summary>
+        </member>
+        <member name="F:PRJ.SSS.repo">
+            <summary>
+            Holds an instance of the PRJRepository repository.
+            </summary>
+        </member>
+        <member name="M:PRJ.SSS.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:PRJ.SSS.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:PRJ.SSS.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:PRJ.SSS.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:PRJ.SSS.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:PRJ.SSS.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:PRJ.VerifyAddToCart">
+             <summary>
+            The VerifyAddToCart recording.
+             </summary>
+        </member>
+        <member name="F:PRJ.VerifyAddToCart.repo">
+            <summary>
+            Holds an instance of the PRJRepository repository.
+            </summary>
+        </member>
+        <member name="M:PRJ.VerifyAddToCart.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:PRJ.VerifyAddToCart.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:PRJ.VerifyAddToCart.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:PRJ.VerifyAddToCart.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:PRJ.VerifyAddToCart.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:PRJ.VerifyAddToCart.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:PRJ.VerifyBuyProducts">
+             <summary>
+            The VerifyBuyProducts recording.
+             </summary>
+        </member>
+        <member name="F:PRJ.VerifyBuyProducts.repo">
+            <summary>
+            Holds an instance of the PRJRepository repository.
+            </summary>
+        </member>
+        <member name="M:PRJ.VerifyBuyProducts.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:PRJ.VerifyBuyProducts.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:PRJ.VerifyBuyProducts.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:PRJ.VerifyBuyProducts.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:PRJ.VerifyBuyProducts.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:PRJ.VerifyBuyProducts.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:PRJ.VerifyAddToWishlist">
+             <summary>
+            The VerifyAddToWishlist recording.
+             </summary>
+        </member>
+        <member name="F:PRJ.VerifyAddToWishlist.repo">
+            <summary>
+            Holds an instance of the PRJRepository repository.
+            </summary>
+        </member>
+        <member name="M:PRJ.VerifyAddToWishlist.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:PRJ.VerifyAddToWishlist.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:PRJ.VerifyAddToWishlist.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:PRJ.VerifyAddToWishlist.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:PRJ.VerifyAddToWishlist.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:PRJ.VerifyAddToWishlist.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:PRJ.VerifyBlankSpaces">
+             <summary>
+            The VerifyBlankSpaces recording.
+             </summary>
+        </member>
+        <member name="F:PRJ.VerifyBlankSpaces.repo">
+            <summary>
+            Holds an instance of the PRJRepository repository.
+            </summary>
+        </member>
+        <member name="M:PRJ.VerifyBlankSpaces.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:PRJ.VerifyBlankSpaces.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:PRJ.VerifyBlankSpaces.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:PRJ.VerifyBlankSpaces.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:PRJ.VerifyBlankSpaces.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:PRJ.VerifyBlankSpaces.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:PRJ.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:PRJ.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the PRJRepository repository.
+            </summary>
+        </member>
+        <member name="M:PRJ.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:PRJ.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:PRJ.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:PRJ.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:PRJ.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:PRJ.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:PRJ.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:PRJ.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the PRJRepository repository.
+            </summary>
+        </member>
+        <member name="M:PRJ.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:PRJ.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:PRJ.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:PRJ.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:PRJ.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:PRJ.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:PRJ.PRJRepository">
+            <summary>
+            The class representing the PRJRepository element repository.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the PRJRepository element repository.
+            </summary>
+        </member>
+        <member name="M:PRJ.PRJRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepository.Dropdown">
+            <summary>
+            The Dropdown folder.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepository.GittiGidiyorTuerkiyeninOEncueAlışve">
+            <summary>
+            The GittiGidiyorTuerkiyeninOEncueAlışve folder.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepository.GittiGidiyorTuerkiyeninOEncueAlışve1">
+            <summary>
+            The GittiGidiyorTuerkiyeninOEncueAlışve1 folder.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepository.GittiGidiyorTuerkiyeninOEncueAlışve2">
+            <summary>
+            The GittiGidiyorTuerkiyeninOEncueAlışve2 folder.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepository.GittiGidiyorYardımSayfalarınaHoşgeldi">
+            <summary>
+            The GittiGidiyorYardımSayfalarınaHoşgeldi folder.
+            </summary>
+        </member>
+        <member name="T:PRJ.PRJRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:PRJ.PRJRepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:PRJ.PRJRepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.ApplicationUnderTestAppFolder.SuggestionEmailInputVerifier">
+            <summary>
+            The SuggestionEmailInputVerifier item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.ApplicationUnderTestAppFolder.SuggestionEmailInputVerifierInfo">
+            <summary>
+            The SuggestionEmailInputVerifier item info.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.ApplicationUnderTestAppFolder.PwdField">
+            <summary>
+            The PwdField item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.ApplicationUnderTestAppFolder.PwdFieldInfo">
+            <summary>
+            The PwdField item info.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.ApplicationUnderTestAppFolder.Container">
+            <summary>
+            The Container item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.ApplicationUnderTestAppFolder.ContainerInfo">
+            <summary>
+            The Container item info.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.ApplicationUnderTestAppFolder.GsmData">
+            <summary>
+            The GsmData item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.ApplicationUnderTestAppFolder.GsmDataInfo">
+            <summary>
+            The GsmData item info.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.ApplicationUnderTestAppFolder.SubmitForm">
+            <summary>
+            The SubmitForm item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.ApplicationUnderTestAppFolder.SubmitFormInfo">
+            <summary>
+            The SubmitForm item info.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.ApplicationUnderTestAppFolder.SepeteEkle">
+            <summary>
+            The SepeteEkle item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.ApplicationUnderTestAppFolder.SepeteEkleInfo">
+            <summary>
+            The SepeteEkle item info.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.ApplicationUnderTestAppFolder.SepeteEkle1">
+            <summary>
+            The SepeteEkle1 item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.ApplicationUnderTestAppFolder.SepeteEkle1Info">
+            <summary>
+            The SepeteEkle1 item info.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.ApplicationUnderTestAppFolder.Sepetim">
+            <summary>
+            The Sepetim item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.ApplicationUnderTestAppFolder.SepetimInfo">
+            <summary>
+            The Sepetim item info.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.ApplicationUnderTestAppFolder.AddProduct1">
+            <summary>
+            The AddProduct1 item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.ApplicationUnderTestAppFolder.AddProduct1Info">
+            <summary>
+            The AddProduct1 item info.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.ApplicationUnderTestAppFolder.AddProduct2">
+            <summary>
+            The AddProduct2 item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.ApplicationUnderTestAppFolder.AddProduct2Info">
+            <summary>
+            The AddProduct2 item info.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.ApplicationUnderTestAppFolder.MyAccount_Favourites">
+            <summary>
+            The MyAccount_Favourites item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.ApplicationUnderTestAppFolder.MyAccount_FavouritesInfo">
+            <summary>
+            The MyAccount_Favourites item info.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.ApplicationUnderTestAppFolder.Logout">
+            <summary>
+            The Logout item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.ApplicationUnderTestAppFolder.LogoutInfo">
+            <summary>
+            The Logout item info.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.ApplicationUnderTestAppFolder.Sepetim1">
+            <summary>
+            The Sepetim1 item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.ApplicationUnderTestAppFolder.Sepetim1Info">
+            <summary>
+            The Sepetim1 item info.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.ApplicationUnderTestAppFolder.RegisterPost">
+            <summary>
+            The RegisterPost folder.
+            </summary>
+        </member>
+        <member name="T:PRJ.PRJRepositoryFolders.RegisterPostFolder">
+            <summary>
+            The RegisterPostFolder folder.
+            </summary>
+        </member>
+        <member name="M:PRJ.PRJRepositoryFolders.RegisterPostFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new RegisterPost  folder.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.RegisterPostFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.RegisterPostFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.RegisterPostFolder.Name">
+            <summary>
+            The Name item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.RegisterPostFolder.NameInfo">
+            <summary>
+            The Name item info.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.RegisterPostFolder.Surname">
+            <summary>
+            The Surname item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.RegisterPostFolder.SurnameInfo">
+            <summary>
+            The Surname item info.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.RegisterPostFolder.Checkmark">
+            <summary>
+            The Checkmark item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.RegisterPostFolder.CheckmarkInfo">
+            <summary>
+            The Checkmark item info.
+            </summary>
+        </member>
+        <member name="T:PRJ.PRJRepositoryFolders.DropdownAppFolder">
+            <summary>
+            The DropdownAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:PRJ.PRJRepositoryFolders.DropdownAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Dropdown  folder.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.DropdownAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.DropdownAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.DropdownAppFolder.Submit">
+            <summary>
+            The Submit item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.DropdownAppFolder.SubmitInfo">
+            <summary>
+            The Submit item info.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.DropdownAppFolder.InputTagK">
+            <summary>
+            The InputTagK item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.DropdownAppFolder.InputTagKInfo">
+            <summary>
+            The InputTagK item info.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.DropdownAppFolder.Search">
+            <summary>
+            The Search item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.DropdownAppFolder.SearchInfo">
+            <summary>
+            The Search item info.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.DropdownAppFolder.Name">
+            <summary>
+            The Name item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.DropdownAppFolder.NameInfo">
+            <summary>
+            The Name item info.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.DropdownAppFolder.Surname">
+            <summary>
+            The Surname item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.DropdownAppFolder.SurnameInfo">
+            <summary>
+            The Surname item info.
+            </summary>
+        </member>
+        <member name="T:PRJ.PRJRepositoryFolders.GittiGidiyorTuerkiyeninOEncueAlışveAppFolder">
+            <summary>
+            The GittiGidiyorTuerkiyeninOEncueAlışveAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:PRJ.PRJRepositoryFolders.GittiGidiyorTuerkiyeninOEncueAlışveAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new GittiGidiyorTuerkiyeninOEncueAlışve  folder.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.GittiGidiyorTuerkiyeninOEncueAlışveAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.GittiGidiyorTuerkiyeninOEncueAlışveAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.GittiGidiyorTuerkiyeninOEncueAlışveAppFolder.SpanTagBUL">
+            <summary>
+            The SpanTagBUL item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.GittiGidiyorTuerkiyeninOEncueAlışveAppFolder.SpanTagBULInfo">
+            <summary>
+            The SpanTagBUL item info.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.GittiGidiyorTuerkiyeninOEncueAlışveAppFolder.AddToBasket">
+            <summary>
+            The AddToBasket item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.GittiGidiyorTuerkiyeninOEncueAlışveAppFolder.AddToBasketInfo">
+            <summary>
+            The AddToBasket item info.
+            </summary>
+        </member>
+        <member name="T:PRJ.PRJRepositoryFolders.GittiGidiyorTuerkiyeninOEncueAlışve1AppFolder">
+            <summary>
+            The GittiGidiyorTuerkiyeninOEncueAlışve1AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:PRJ.PRJRepositoryFolders.GittiGidiyorTuerkiyeninOEncueAlışve1AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new GittiGidiyorTuerkiyeninOEncueAlışve1  folder.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.GittiGidiyorTuerkiyeninOEncueAlışve1AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.GittiGidiyorTuerkiyeninOEncueAlışve1AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.GittiGidiyorTuerkiyeninOEncueAlışve1AppFolder.F2r72j3JNDvfB">
+            <summary>
+            The F2r72j3JNDvfB item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.GittiGidiyorTuerkiyeninOEncueAlışve1AppFolder.F2r72j3JNDvfBInfo">
+            <summary>
+            The F2r72j3JNDvfB item info.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.GittiGidiyorTuerkiyeninOEncueAlışve1AppFolder.AddToBasket">
+            <summary>
+            The AddToBasket item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.GittiGidiyorTuerkiyeninOEncueAlışve1AppFolder.AddToBasketInfo">
+            <summary>
+            The AddToBasket item info.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.GittiGidiyorTuerkiyeninOEncueAlışve1AppFolder.HttpsWwwGittigidiyorComSepetim">
+            <summary>
+            The HttpsWwwGittigidiyorComSepetim item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.GittiGidiyorTuerkiyeninOEncueAlışve1AppFolder.HttpsWwwGittigidiyorComSepetimInfo">
+            <summary>
+            The HttpsWwwGittigidiyorComSepetim item info.
+            </summary>
+        </member>
+        <member name="T:PRJ.PRJRepositoryFolders.GittiGidiyorTuerkiyeninOEncueAlışve2AppFolder">
+            <summary>
+            The GittiGidiyorTuerkiyeninOEncueAlışve2AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:PRJ.PRJRepositoryFolders.GittiGidiyorTuerkiyeninOEncueAlışve2AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new GittiGidiyorTuerkiyeninOEncueAlışve2  folder.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.GittiGidiyorTuerkiyeninOEncueAlışve2AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.GittiGidiyorTuerkiyeninOEncueAlışve2AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.GittiGidiyorTuerkiyeninOEncueAlışve2AppFolder.XiaomiRedmi9T64GBXiaomiTuerkiyeG">
+            <summary>
+            The XiaomiRedmi9T64GBXiaomiTuerkiyeG item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.GittiGidiyorTuerkiyeninOEncueAlışve2AppFolder.XiaomiRedmi9T64GBXiaomiTuerkiyeGInfo">
+            <summary>
+            The XiaomiRedmi9T64GBXiaomiTuerkiyeG item info.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.GittiGidiyorTuerkiyeninOEncueAlışve2AppFolder.SueperFiyatlar">
+            <summary>
+            The SueperFiyatlar item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.GittiGidiyorTuerkiyeninOEncueAlışve2AppFolder.SueperFiyatlarInfo">
+            <summary>
+            The SueperFiyatlar item info.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.GittiGidiyorTuerkiyeninOEncueAlışve2AppFolder.WalkingpadR1Pro125HpKatlanabilirK">
+            <summary>
+            The WalkingpadR1Pro125HpKatlanabilirK item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.GittiGidiyorTuerkiyeninOEncueAlışve2AppFolder.WalkingpadR1Pro125HpKatlanabilirKInfo">
+            <summary>
+            The WalkingpadR1Pro125HpKatlanabilirK item info.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.GittiGidiyorTuerkiyeninOEncueAlışve2AppFolder.AddToBasket">
+            <summary>
+            The AddToBasket item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.GittiGidiyorTuerkiyeninOEncueAlışve2AppFolder.AddToBasketInfo">
+            <summary>
+            The AddToBasket item info.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.GittiGidiyorTuerkiyeninOEncueAlışve2AppFolder.SpanTagBUL">
+            <summary>
+            The SpanTagBUL item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.GittiGidiyorTuerkiyeninOEncueAlışve2AppFolder.SpanTagBULInfo">
+            <summary>
+            The SpanTagBUL item info.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.GittiGidiyorTuerkiyeninOEncueAlışve2AppFolder.AppleIPhone13512GBAppleTuerkiyeGa">
+            <summary>
+            The AppleIPhone13512GBAppleTuerkiyeGa item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.GittiGidiyorTuerkiyeninOEncueAlışve2AppFolder.AppleIPhone13512GBAppleTuerkiyeGaInfo">
+            <summary>
+            The AppleIPhone13512GBAppleTuerkiyeGa item info.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.GittiGidiyorTuerkiyeninOEncueAlışve2AppFolder.SomeSvgTag">
+            <summary>
+            The SomeSvgTag item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.GittiGidiyorTuerkiyeninOEncueAlışve2AppFolder.SomeSvgTagInfo">
+            <summary>
+            The SomeSvgTag item info.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.GittiGidiyorTuerkiyeninOEncueAlışve2AppFolder.SomeSvgTag1">
+            <summary>
+            The SomeSvgTag1 item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.GittiGidiyorTuerkiyeninOEncueAlışve2AppFolder.SomeSvgTag1Info">
+            <summary>
+            The SomeSvgTag1 item info.
+            </summary>
+        </member>
+        <member name="T:PRJ.PRJRepositoryFolders.GittiGidiyorYardımSayfalarınaHoşgeldiAppFolder">
+            <summary>
+            The GittiGidiyorYardımSayfalarınaHoşgeldiAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:PRJ.PRJRepositoryFolders.GittiGidiyorYardımSayfalarınaHoşgeldiAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new GittiGidiyorYardımSayfalarınaHoşgeldi  folder.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.GittiGidiyorYardımSayfalarınaHoşgeldiAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.GittiGidiyorYardımSayfalarınaHoşgeldiAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.GittiGidiyorYardımSayfalarınaHoşgeldiAppFolder.CGGArticle">
+            <summary>
+            The CGGArticle item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.GittiGidiyorYardımSayfalarınaHoşgeldiAppFolder.CGGArticleInfo">
+            <summary>
+            The CGGArticle item info.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.GittiGidiyorYardımSayfalarınaHoşgeldiAppFolder.Container">
+            <summary>
+            The Container folder.
+            </summary>
+        </member>
+        <member name="T:PRJ.PRJRepositoryFolders.ContainerFolder">
+            <summary>
+            The ContainerFolder folder.
+            </summary>
+        </member>
+        <member name="M:PRJ.PRJRepositoryFolders.ContainerFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Container  folder.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.ContainerFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.ContainerFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.ContainerFolder.LightningPrimitiveIcon">
+            <summary>
+            The LightningPrimitiveIcon item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.ContainerFolder.LightningPrimitiveIconInfo">
+            <summary>
+            The LightningPrimitiveIcon item info.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.ContainerFolder.Text">
+            <summary>
+            The Text item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.ContainerFolder.TextInfo">
+            <summary>
+            The Text item info.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.ContainerFolder.ForceCommunitySearch">
+            <summary>
+            The ForceCommunitySearch item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.ContainerFolder.ForceCommunitySearchInfo">
+            <summary>
+            The ForceCommunitySearch item info.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.ContainerFolder.ATagBanaUlaşmadıNeYapmalıyım">
+            <summary>
+            The ATagBanaUlaşmadıNeYapmalıyım item.
+            </summary>
+        </member>
+        <member name="P:PRJ.PRJRepositoryFolders.ContainerFolder.ATagBanaUlaşmadıNeYapmalıyımInfo">
+            <summary>
+            The ATagBanaUlaşmadıNeYapmalıyım item info.
+            </summary>
+        </member>
+        <member name="T:PRJ.VerifyLogout">
+             <summary>
+            The VerifyLogout recording.
+             </summary>
+        </member>
+        <member name="F:PRJ.VerifyLogout.repo">
+            <summary>
+            Holds an instance of the PRJRepository repository.
+            </summary>
+        </member>
+        <member name="M:PRJ.VerifyLogout.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:PRJ.VerifyLogout.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:PRJ.VerifyLogout.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:PRJ.VerifyLogout.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:PRJ.VerifyLogout.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:PRJ.VerifyLogout.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:PRJ.VerifyNotFilling">
+             <summary>
+            The VerifyNotFilling recording.
+             </summary>
+        </member>
+        <member name="F:PRJ.VerifyNotFilling.repo">
+            <summary>
+            Holds an instance of the PRJRepository repository.
+            </summary>
+        </member>
+        <member name="M:PRJ.VerifyNotFilling.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:PRJ.VerifyNotFilling.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:PRJ.VerifyNotFilling.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:PRJ.VerifyNotFilling.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:PRJ.VerifyNotFilling.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:PRJ.VerifyNotFilling.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:PRJ.VerifySpecifiedFields">
+             <summary>
+            The VerifySpecifiedFields recording.
+             </summary>
+        </member>
+        <member name="F:PRJ.VerifySpecifiedFields.repo">
+            <summary>
+            Holds an instance of the PRJRepository repository.
+            </summary>
+        </member>
+        <member name="M:PRJ.VerifySpecifiedFields.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:PRJ.VerifySpecifiedFields.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:PRJ.VerifySpecifiedFields.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:PRJ.VerifySpecifiedFields.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:PRJ.VerifySpecifiedFields.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:PRJ.VerifySpecifiedFields.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

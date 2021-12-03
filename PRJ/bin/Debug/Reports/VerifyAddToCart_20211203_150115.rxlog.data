@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="37.74s"
+		durationms="37742"
+		type="root"
+		rid="26dc54f3066a9420"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Tolunay"
+		rxversion="10.1.3.0"
+		host="DESKTOP-M9C71O2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="3.12.2021 15:01:20"
+		timestampiso="2021-12-03T12:01:20"
+		endtime="3.12.2021 15:01:58"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="VerifyAddToCart">
+		<detail>
+			VerifyAddToCart
+		</detail>
+		<errormessage>
+			Item 'PRJRepository.XiaomiRedmi9TCepTelefonuFiyatıVeO.AddToBasket' is no ButtonTag.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.518"
+			timeRelativeToTestModuleStartTime="00:07.518"
+			timeWallClock="15:01:27"
+			time="00:07.518"
+			level="Info"
+			category="Mouse"
+			errimg="images_VerifyAd_607e0675\VerifyAd_607e0675_b184264e_trace.jpg"
+			errthumb="images_VerifyAd_607e0675\VerifyAd_607e0675_b184264e_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'XiaomiRedmi9TCepTelefonuFiyatıVeO.AddToBasket' at 116;25.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.gittigidiyor.com']//button[#'add-to-basket']"
+				itempath=".//button[#'add-to-basket']"
+				fullname="PRJRepository.XiaomiRedmi9TCepTelefonuFiyatıVeO.AddToBasket"
+				id="c8f11a6baed64ab69848fa1c57fdcbae"
+				timeout="60000"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:37.616"
+			timeRelativeToTestModuleStartTime="00:37.616"
+			timeWallClock="15:01:58"
+			time="00:37.616"
+			level="Info"
+			category="User"
+			errimg="images_VerifyAd_607e0675\VerifyAd_607e0675_3abaca80_trace.jpg"
+			errthumb="images_VerifyAd_607e0675\VerifyAd_607e0675_3abaca80_trace_thumb.jpg">
+			<message>
+				Item 'AddToBasket' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs"
+				codeline="83"
+				loglvl="Info"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:37.626"
+			timeRelativeToTestModuleStartTime="00:37.626"
+			timeWallClock="15:01:58"
+			time="00:37.626"
+			level="Error"
+			category="Module"
+			errimg="images_VerifyAd_607e0675\VerifyAd_607e0675_3abaca80_trace.jpg"
+			errthumb="images_VerifyAd_607e0675\VerifyAd_607e0675_3abaca80_trace_thumb.jpg">
+			<message>
+				Item 'PRJRepository.XiaomiRedmi9TCepTelefonuFiyatıVeO.AddToBasket' is no ButtonTag.<br/>The element does not support the required capability 'buttontag'.
+			</message>
+			<metainfo
+				stacktrace="   konum: Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   konum: Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   konum: PRJ.PRJRepositoryFolders.XiaomiRedmi9TCepTelefonuFiyatıVeOAppFolder.get_AddToBasket() C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\PRJRepository.cs içinde: satır 1066&#13;&#10;   konum: PRJ.VerifyAddToCart.Ranorex.Core.Testing.ITestModule.Run() C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs içinde: satır 83&#13;&#10;   konum: Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs içinde"
+				codeline="83"
+				loglvl="Error"
+				id="c8f11a6baed64ab69848fa1c57fdcbae"
+				path="/dom[@domain='www.gittigidiyor.com']//button[#'add-to-basket']"
+				fullname="PRJRepository.XiaomiRedmi9TCepTelefonuFiyatıVeO.AddToBasket"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.1m"
+		durationms="67399"
+		type="root"
+		rid="3c395e21f6e4e78"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Tolunay"
+		rxversion="10.1.3.0"
+		host="DESKTOP-M9C71O2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="3.12.2021 00:30:56"
+		timestampiso="2021-12-02T21:30:56"
+		endtime="3.12.2021 00:32:03"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="VerifyBuyProducts">
+		<detail>
+			VerifyBuyProducts
+		</detail>
+		<errormessage>
+			Failed to find item 'PRJRepository.Dropdown.Submit'. Please check that your whitelist allows Ranorex to access the process.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.816"
+			timeRelativeToTestModuleStartTime="00:06.816"
+			timeWallClock="00:31:02"
+			time="00:06.816"
+			level="Info"
+			category="Mouse"
+			errimg="images_VerifyBu_5d1cb07d\VerifyBu_5d1cb07d_a0788bdc_trace.jpg"
+			errthumb="images_VerifyBu_5d1cb07d\VerifyBu_5d1cb07d_a0788bdc_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'Dropdown.Submit' at 127;23.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/container//div[#'cart-continue-button-container']/input[@type='submit']"
+				itempath=".//div[#'cart-continue-button-container']/input[@type='submit']"
+				fullname="PRJRepository.Dropdown.Submit"
+				id="8b279542f0f14136aa1a39f173085e45"
+				timeout="60000"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyBuyProducts.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:06.898"
+			timeRelativeToTestModuleStartTime="01:06.898"
+			timeWallClock="00:32:02"
+			time="01:06.898"
+			level="Info"
+			category="User"
+			errimg="images_VerifyBu_5d1cb07d\VerifyBu_5d1cb07d_3f9a487f_trace.jpg"
+			errthumb="images_VerifyBu_5d1cb07d\VerifyBu_5d1cb07d_3f9a487f_trace_thumb.jpg">
+			<message>
+				Item 'Submit' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyBuyProducts.cs"
+				codeline="83"
+				loglvl="Info"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:07.269"
+			timeRelativeToTestModuleStartTime="01:07.269"
+			timeWallClock="00:32:03"
+			time="01:07.269"
+			level="Error"
+			category="Module"
+			errimg="images_VerifyBu_5d1cb07d\VerifyBu_5d1cb07d_a267b583_trace.jpg"
+			errthumb="images_VerifyBu_5d1cb07d\VerifyBu_5d1cb07d_a267b583_trace_thumb.jpg">
+			<message>
+				Failed to find item 'PRJRepository.Dropdown.Submit'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path '/container//div[#'cart-continue-button-container']/input[@type='submit']' at step 'descendant-or-self::div[#'cart-continue-button-container']' after 62 attempts within 1m.
+			</message>
+			<metainfo
+				stacktrace="   konum: Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   konum: Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   konum: PRJ.PRJRepositoryFolders.DropdownAppFolder.get_Submit() C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\PRJRepository.cs içinde: satır 623&#13;&#10;   konum: PRJ.VerifyBuyProducts.Ranorex.Core.Testing.ITestModule.Run() C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyBuyProducts.cs içinde: satır 83&#13;&#10;   konum: Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyBuyProducts.cs"
+				codeline="83"
+				type="repoitem"
+				path="/container//div[#'cart-continue-button-container']/input[@type='submit']"
+				itempath=".//div[#'cart-continue-button-container']/input[@type='submit']"
+				fullname="PRJRepository.Dropdown.Submit"
+				id="8b279542f0f14136aa1a39f173085e45"
+				timeout="60000"
+				failedStep="descendant-or-self::div[#'cart-continue-button-container']"
+				bestPathPrefix="/container"
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

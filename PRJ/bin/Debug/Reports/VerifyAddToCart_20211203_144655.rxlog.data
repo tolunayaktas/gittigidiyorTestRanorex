@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="38.04s"
+		durationms="38037"
+		type="root"
+		rid="35d57ac896a32c00"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Tolunay"
+		rxversion="10.1.3.0"
+		host="DESKTOP-M9C71O2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="3.12.2021 14:46:59"
+		timestampiso="2021-12-03T11:46:59"
+		endtime="3.12.2021 14:47:37"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="VerifyAddToCart">
+		<detail>
+			VerifyAddToCart
+		</detail>
+		<errormessage>
+			Item 'PRJRepository.GittiGidiyorTuerkiyeninOEncueAlışve1.F2r72j3JNDvfB' is no NavTag.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.735"
+			timeRelativeToTestModuleStartTime="00:07.735"
+			timeWallClock="14:47:07"
+			time="00:07.735"
+			level="Info"
+			category="Mouse"
+			errimg="images_VerifyAd_67281e69\VerifyAd_67281e69_66783f1b_trace.jpg"
+			errthumb="images_VerifyAd_67281e69\VerifyAd_67281e69_66783f1b_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'GittiGidiyorTuerkiyeninOEncueAlışve1.F2r72j3JNDvfB' at 118;194.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.gittigidiyor.com']//div[#'__next']/main/div[2]/div[2]/div/div[2]/div/div[3]/div[3]/ul/li[1]/article/?/?/a[@title='Oppo A74 128 GB Siyah']//header/?/?/h2[@title='Oppo A74 128 GB Siyah']//header[#'main-header']/div[4]/div//nav"
+				itempath=".//header[#'main-header']/div[4]/div//nav"
+				fullname="PRJRepository.GittiGidiyorTuerkiyeninOEncueAlışve1.F2r72j3JNDvfB"
+				id="21edaa5a1ca14aeb9b7fa7564bbb9dcc"
+				timeout="60000"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:37.903"
+			timeRelativeToTestModuleStartTime="00:37.903"
+			timeWallClock="14:47:37"
+			time="00:37.903"
+			level="Info"
+			category="User"
+			errimg="images_VerifyAd_67281e69\VerifyAd_67281e69_e469c31b_trace.jpg"
+			errthumb="images_VerifyAd_67281e69\VerifyAd_67281e69_e469c31b_trace_thumb.jpg">
+			<message>
+				Item 'F2r72j3JNDvfB' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs"
+				codeline="83"
+				loglvl="Info"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:37.915"
+			timeRelativeToTestModuleStartTime="00:37.915"
+			timeWallClock="14:47:37"
+			time="00:37.915"
+			level="Error"
+			category="Module"
+			errimg="images_VerifyAd_67281e69\VerifyAd_67281e69_e469c31b_trace.jpg"
+			errthumb="images_VerifyAd_67281e69\VerifyAd_67281e69_e469c31b_trace_thumb.jpg">
+			<message>
+				Item 'PRJRepository.GittiGidiyorTuerkiyeninOEncueAlışve1.F2r72j3JNDvfB' is no NavTag.<br/>The element does not support the required capability 'navtag'.
+			</message>
+			<metainfo
+				stacktrace="   konum: Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   konum: Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   konum: PRJ.PRJRepositoryFolders.GittiGidiyorTuerkiyeninOEncueAlışve1AppFolder.get_F2r72j3JNDvfB() C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\PRJRepository.cs içinde: satır 937&#13;&#10;   konum: PRJ.VerifyAddToCart.Ranorex.Core.Testing.ITestModule.Run() C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs içinde: satır 83&#13;&#10;   konum: Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs içinde"
+				codeline="83"
+				loglvl="Error"
+				id="21edaa5a1ca14aeb9b7fa7564bbb9dcc"
+				path="/dom[@domain='www.gittigidiyor.com']//div[#'__next']/main/div[2]/div[2]/div/div[2]/div/div[3]/div[3]/ul/li[1]/article/?/?/a[@title='Oppo A74 128 GB Siyah']//header/?/?/h2[@title='Oppo A74 128 GB Siyah']//header[#'main-header']/div[4]/div//nav"
+				fullname="PRJRepository.GittiGidiyorTuerkiyeninOEncueAlışve1.F2r72j3JNDvfB"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

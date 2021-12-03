@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="15.43s"
+		durationms="15428"
+		type="root"
+		rid="a29c42f0d081ced"
+		totalerrorcount="0"
+		totalwarningcount="10"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Tolunay"
+		rxversion="10.1.3.0"
+		host="DESKTOP-M9C71O2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="3.12.2021 13:52:23"
+		timestampiso="2021-12-03T10:52:23"
+		endtime="3.12.2021 13:52:39"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="VerifySpecifiedFields">
+		<detail>
+			VerifySpecifiedFields
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.990"
+			timeRelativeToTestModuleStartTime="00:05.990"
+			timeWallClock="13:52:29"
+			time="00:05.990"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Dropdown.Name' at 58;24.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/container//form[#'RegisterPost']/div[2]//input[@name='name']"
+				itempath=".//form[#'RegisterPost']/div[2]//input[@name='name']"
+				fullname="PRJRepository.Dropdown.Name"
+				id="b77c762e8ac74fe5bcd4767f9b8d3ed1"
+				timeout="60000"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifySpecifiedFields.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.015"
+			timeRelativeToTestModuleStartTime="00:09.015"
+			timeWallClock="13:52:32"
+			time="00:09.015"
+			level="Warn"
+			category="Repository">
+			<message>
+				Failed to update the cached element for folder 'PRJRepository.Dropdown'. In order to analyze this issue, please contact support at https://www.ranorex.com/support-query/ with a copy of this report, the repository, and a snapshot of the automated application.
+			</message>
+			<metainfo
+				descendantPath=".//form[#'RegisterPost']/div[2]//input[@name='name']"
+				invertedPath="self::input[@name='name']/ancestor-or-self::div/parent::form[#'RegisterPost']/ancestor-or-self::*"
+				basePathToCachedFolder="/container"
+				invertedBasePath="self::container/parent::host/self::*"
+				AbsoluteBasePath="/container"
+				folderSearchTimeout="30s"
+				folderElementCandidates.Count="9"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifySpecifiedFields.cs"
+				codeline="83"
+				loglvl="Warn"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.083"
+			timeRelativeToTestModuleStartTime="00:09.083"
+			timeWallClock="13:52:33"
+			time="00:09.083"
+			level="Warn"
+			category="Click">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>(null)
+			</message>
+			<metainfo
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifySpecifiedFields.cs"
+				codeline="83"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.719"
+			timeRelativeToTestModuleStartTime="00:09.719"
+			timeWallClock="13:52:33"
+			time="00:09.719"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Dropdown.Surname' at 53;28.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/container//form[#'RegisterPost']/div[3]//input[@name='surname']"
+				itempath=".//form[#'RegisterPost']/div[3]//input[@name='surname']"
+				fullname="PRJRepository.Dropdown.Surname"
+				id="3ad085001b1e44b9ba5126f33921b4e8"
+				timeout="60000"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifySpecifiedFields.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.016"
+			timeRelativeToTestModuleStartTime="00:10.016"
+			timeWallClock="13:52:33"
+			time="00:10.016"
+			level="Warn"
+			category="Repository">
+			<message>
+				Failed to update the cached element for folder 'PRJRepository.Dropdown'. In order to analyze this issue, please contact support at https://www.ranorex.com/support-query/ with a copy of this report, the repository, and a snapshot of the automated application.
+			</message>
+			<metainfo
+				descendantPath=".//form[#'RegisterPost']/div[3]//input[@name='surname']"
+				invertedPath="self::input[@name='surname']/ancestor-or-self::div/parent::form[#'RegisterPost']/ancestor-or-self::*"
+				basePathToCachedFolder="/container"
+				invertedBasePath="self::container/parent::host/self::*"
+				AbsoluteBasePath="/container"
+				folderSearchTimeout="30s"
+				folderElementCandidates.Count="9"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifySpecifiedFields.cs"
+				codeline="87"
+				loglvl="Warn"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.062"
+			timeRelativeToTestModuleStartTime="00:10.062"
+			timeWallClock="13:52:33"
+			time="00:10.062"
+			level="Warn"
+			category="Click">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>(null)
+			</message>
+			<metainfo
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifySpecifiedFields.cs"
+				codeline="87"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.632"
+			timeRelativeToTestModuleStartTime="00:10.632"
+			timeWallClock="13:52:34"
+			time="00:10.632"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.SuggestionEmailInputVerifier' at 58;25.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.gittigidiyor.com']//input[#'suggestion_email_input_verifier']"
+				itempath=".//input[#'suggestion_email_input_verifier']"
+				fullname="PRJRepository.ApplicationUnderTest.SuggestionEmailInputVerifier"
+				id="ad9ddb130003401aae14618891bd2eee"
+				timeout="60000"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifySpecifiedFields.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.809"
+			timeRelativeToTestModuleStartTime="00:10.809"
+			timeWallClock="13:52:34"
+			time="00:10.809"
+			level="Warn"
+			category="Click">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>(null)
+			</message>
+			<metainfo
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifySpecifiedFields.cs"
+				codeline="91"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.384"
+			timeRelativeToTestModuleStartTime="00:11.384"
+			timeWallClock="13:52:35"
+			time="00:11.384"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.PwdField' at 56;27.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.gittigidiyor.com']//input[#'pwdField']"
+				itempath=".//input[#'pwdField']"
+				fullname="PRJRepository.ApplicationUnderTest.PwdField"
+				id="e5909999640d460c947717dbf4e11275"
+				timeout="60000"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifySpecifiedFields.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.547"
+			timeRelativeToTestModuleStartTime="00:11.547"
+			timeWallClock="13:52:35"
+			time="00:11.547"
+			level="Warn"
+			category="Click">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>(null)
+			</message>
+			<metainfo
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifySpecifiedFields.cs"
+				codeline="95"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.152"
+			timeRelativeToTestModuleStartTime="00:12.152"
+			timeWallClock="13:52:36"
+			time="00:12.152"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse scroll Vertical by -120 units.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifySpecifiedFields.cs"
+				codeline="98"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.460"
+			timeRelativeToTestModuleStartTime="00:12.460"
+			timeWallClock="13:52:36"
+			time="00:12.460"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.GsmData' at 79;31.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.gittigidiyor.com']//input[#'gsmData']"
+				itempath=".//input[#'gsmData']"
+				fullname="PRJRepository.ApplicationUnderTest.GsmData"
+				id="c2a04d02d1044486aceae0873b7a7d39"
+				timeout="60000"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifySpecifiedFields.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.617"
+			timeRelativeToTestModuleStartTime="00:12.617"
+			timeWallClock="13:52:36"
+			time="00:12.617"
+			level="Warn"
+			category="Click">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>(null)
+			</message>
+			<metainfo
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifySpecifiedFields.cs"
+				codeline="103"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.186"
+			timeRelativeToTestModuleStartTime="00:13.186"
+			timeWallClock="13:52:37"
+			time="00:13.186"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.RegisterPost.Checkmark' at 11;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.gittigidiyor.com']//form[#'RegisterPost']/div[8]//label/span[1]"
+				itempath="div[8]//label/span[1]"
+				fullname="PRJRepository.ApplicationUnderTest.RegisterPost.Checkmark"
+				id="6b584b49572e488a81425ad749543069"
+				timeout="90000"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifySpecifiedFields.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.354"
+			timeRelativeToTestModuleStartTime="00:13.354"
+			timeWallClock="13:52:37"
+			time="00:13.354"
+			level="Warn"
+			category="Click">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>(null)
+			</message>
+			<metainfo
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifySpecifiedFields.cs"
+				codeline="107"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.921"
+			timeRelativeToTestModuleStartTime="00:13.921"
+			timeWallClock="13:52:37"
+			time="00:13.921"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.RegisterPost.Checkmark' at 11;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.gittigidiyor.com']//form[#'RegisterPost']/div[8]//label/span[1]"
+				itempath="div[8]//label/span[1]"
+				fullname="PRJRepository.ApplicationUnderTest.RegisterPost.Checkmark"
+				id="6b584b49572e488a81425ad749543069"
+				timeout="90000"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifySpecifiedFields.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.099"
+			timeRelativeToTestModuleStartTime="00:14.099"
+			timeWallClock="13:52:38"
+			time="00:14.099"
+			level="Warn"
+			category="Click">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>(null)
+			</message>
+			<metainfo
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifySpecifiedFields.cs"
+				codeline="111"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.672"
+			timeRelativeToTestModuleStartTime="00:14.672"
+			timeWallClock="13:52:38"
+			time="00:14.672"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.RegisterPost.Checkmark' at 11;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.gittigidiyor.com']//form[#'RegisterPost']/div[8]//label/span[1]"
+				itempath="div[8]//label/span[1]"
+				fullname="PRJRepository.ApplicationUnderTest.RegisterPost.Checkmark"
+				id="6b584b49572e488a81425ad749543069"
+				timeout="90000"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifySpecifiedFields.cs"
+				codeline="114"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.856"
+			timeRelativeToTestModuleStartTime="00:14.856"
+			timeWallClock="13:52:38"
+			time="00:14.856"
+			level="Warn"
+			category="Click">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>(null)
+			</message>
+			<metainfo
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifySpecifiedFields.cs"
+				codeline="115"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+	</activity>
+</report>

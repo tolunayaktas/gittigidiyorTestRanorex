@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="d8603ce5-fc94-48c3-bcba-da40105e3e98"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="PRJ">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="b87e47b0-e3b8-4e85-a1be-dbad778b4f58">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5bea6234-e11f-418a-aea7-8876489c739b"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='firefox']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="1e2014c8-d961-4124-b391-5d63f51cddb4"
+	name="PRJRepository"
+	relativepath="PRJRepository.rxrep">
+		<codegen
+		classname="PRJRepository"
+		namespace="PRJ">
+		</codegen>
+		<rootfolder
+		id="710f379c-4131-4f1c-87bf-6ea03949c1a4"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

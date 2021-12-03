@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.1m"
+		durationms="68500"
+		type="root"
+		rid="1300906425d86740"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Tolunay"
+		rxversion="10.1.3.0"
+		host="DESKTOP-M9C71O2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="3.12.2021 14:50:38"
+		timestampiso="2021-12-03T11:50:38"
+		endtime="3.12.2021 14:51:46"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="VerifyAddToCart">
+		<detail>
+			VerifyAddToCart
+		</detail>
+		<errormessage>
+			Failed to find item 'PRJRepository.XiaomiRedmi9TCepTelefonuFiyatıVeO.AddToBasket'. Please check that your whitelist allows Ranorex to access the process.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.105"
+			timeRelativeToTestModuleStartTime="00:08.105"
+			timeWallClock="14:50:46"
+			time="00:08.105"
+			level="Info"
+			category="Mouse"
+			errimg="images_VerifyAd_cc81a9cc\VerifyAd_cc81a9cc_be19ed7f_trace.jpg"
+			errthumb="images_VerifyAd_cc81a9cc\VerifyAd_cc81a9cc_be19ed7f_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'XiaomiRedmi9TCepTelefonuFiyatıVeO.AddToBasket' at 116;25.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.gittigidiyor.com']//button[#'add-to-basket']"
+				itempath=".//button[#'add-to-basket']"
+				fullname="PRJRepository.XiaomiRedmi9TCepTelefonuFiyatıVeO.AddToBasket"
+				id="c8f11a6baed64ab69848fa1c57fdcbae"
+				timeout="60000"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:08.184"
+			timeRelativeToTestModuleStartTime="01:08.184"
+			timeWallClock="14:51:46"
+			time="01:08.184"
+			level="Info"
+			category="User"
+			errimg="images_VerifyAd_cc81a9cc\VerifyAd_cc81a9cc_9eb8a352_trace.jpg"
+			errthumb="images_VerifyAd_cc81a9cc\VerifyAd_cc81a9cc_9eb8a352_trace_thumb.jpg">
+			<message>
+				Item 'AddToBasket' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs"
+				codeline="83"
+				loglvl="Info"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:08.283"
+			timeRelativeToTestModuleStartTime="01:08.283"
+			timeWallClock="14:51:46"
+			time="01:08.283"
+			level="Error"
+			category="Module"
+			errimg="images_VerifyAd_cc81a9cc\VerifyAd_cc81a9cc_e6a60d8b_trace.jpg"
+			errthumb="images_VerifyAd_cc81a9cc\VerifyAd_cc81a9cc_e6a60d8b_trace_thumb.jpg">
+			<message>
+				Failed to find item 'PRJRepository.XiaomiRedmi9TCepTelefonuFiyatıVeO.AddToBasket'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path '/dom[@domain='www.gittigidiyor.com']//button[#'add-to-basket']' at step 'descendant-or-self::button[#'add-to-basket']' after 208 attempts within 1m.
+			</message>
+			<metainfo
+				stacktrace="   konum: Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   konum: Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   konum: PRJ.PRJRepositoryFolders.XiaomiRedmi9TCepTelefonuFiyatıVeOAppFolder.get_AddToBasket() C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\PRJRepository.cs içinde: satır 1064&#13;&#10;   konum: PRJ.VerifyAddToCart.Ranorex.Core.Testing.ITestModule.Run() C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs içinde: satır 83&#13;&#10;   konum: Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs"
+				codeline="83"
+				type="repoitem"
+				path="/dom[@domain='www.gittigidiyor.com']//button[#'add-to-basket']"
+				itempath=".//button[#'add-to-basket']"
+				fullname="PRJRepository.XiaomiRedmi9TCepTelefonuFiyatıVeO.AddToBasket"
+				id="c8f11a6baed64ab69848fa1c57fdcbae"
+				timeout="60000"
+				failedStep="descendant-or-self::button[#'add-to-basket']"
+				bestPathPrefix="/dom[@domain='www.gittigidiyor.com']"
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

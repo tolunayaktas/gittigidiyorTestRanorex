@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="14.27s"
+		durationms="14274"
+		type="root"
+		rid="9b65874c6388f5a"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Tolunay"
+		rxversion="10.1.3.0"
+		host="DESKTOP-M9C71O2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="2.12.2021 15:46:26"
+		timestampiso="2021-12-02T12:46:26"
+		endtime="2.12.2021 15:46:41"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="BlankSpaces">
+		<detail>
+			BlankSpaces
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.583"
+			timeRelativeToTestModuleStartTime="00:05.583"
+			timeWallClock="15:46:32"
+			time="00:05.583"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.RegisterPost.Name' at 67;29.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.gittigidiyor.com']//form[#'RegisterPost']/div[2]//input[@name='name']"
+				itempath="div[2]//input[@name='name']"
+				fullname="PRJRepository.ApplicationUnderTest.RegisterPost.Name"
+				id="8970a133adf0460d86335ae41c548312"
+				timeout="90000"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\BlankSpaces.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.268"
+			timeRelativeToTestModuleStartTime="00:09.268"
+			timeWallClock="15:46:36"
+			time="00:09.268"
+			level="Warn"
+			category="Click"
+			errimg="images_BlankSpa_c3a854ea\BlankSpa_db36424e_rxlog.jpg"
+			errthumb="images_BlankSpa_c3a854ea\BlankSpa_db36424e_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\BlankSpaces.cs"
+				codeline="83"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.828"
+			timeRelativeToTestModuleStartTime="00:09.828"
+			timeWallClock="15:46:36"
+			time="00:09.828"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence ' ' with focus on 'ApplicationUnderTest.RegisterPost.Name'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.gittigidiyor.com']//form[#'RegisterPost']/div[2]//input[@name='name']"
+				itempath="div[2]//input[@name='name']"
+				fullname="PRJRepository.ApplicationUnderTest.RegisterPost.Name"
+				id="8970a133adf0460d86335ae41c548312"
+				timeout="90000"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\BlankSpaces.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.048"
+			timeRelativeToTestModuleStartTime="00:10.048"
+			timeWallClock="15:46:36"
+			time="00:10.048"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.RegisterPost.Surname' at 86;28.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.gittigidiyor.com']//form[#'RegisterPost']/div[3]//input[@name='surname']"
+				itempath="div[3]//input[@name='surname']"
+				fullname="PRJRepository.ApplicationUnderTest.RegisterPost.Surname"
+				id="f0681014ca8d4f15a88c12ad95c8e082"
+				timeout="90000"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\BlankSpaces.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.661"
+			timeRelativeToTestModuleStartTime="00:10.661"
+			timeWallClock="15:46:37"
+			time="00:10.661"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence ' ' with focus on 'ApplicationUnderTest.RegisterPost.Surname'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.gittigidiyor.com']//form[#'RegisterPost']/div[3]//input[@name='surname']"
+				itempath="div[3]//input[@name='surname']"
+				fullname="PRJRepository.ApplicationUnderTest.RegisterPost.Surname"
+				id="f0681014ca8d4f15a88c12ad95c8e082"
+				timeout="90000"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\BlankSpaces.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.865"
+			timeRelativeToTestModuleStartTime="00:10.865"
+			timeWallClock="15:46:37"
+			time="00:10.865"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.SuggestionEmailInputVerifier' at 107;35.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.gittigidiyor.com']//input[#'suggestion_email_input_verifier']"
+				itempath=".//input[#'suggestion_email_input_verifier']"
+				fullname="PRJRepository.ApplicationUnderTest.SuggestionEmailInputVerifier"
+				id="ad9ddb130003401aae14618891bd2eee"
+				timeout="60000"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\BlankSpaces.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.477"
+			timeRelativeToTestModuleStartTime="00:11.477"
+			timeWallClock="15:46:38"
+			time="00:11.477"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence ' ' with focus on 'ApplicationUnderTest.SuggestionEmailInputVerifier'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.gittigidiyor.com']//input[#'suggestion_email_input_verifier']"
+				itempath=".//input[#'suggestion_email_input_verifier']"
+				fullname="PRJRepository.ApplicationUnderTest.SuggestionEmailInputVerifier"
+				id="ad9ddb130003401aae14618891bd2eee"
+				timeout="60000"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\BlankSpaces.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.678"
+			timeRelativeToTestModuleStartTime="00:11.678"
+			timeWallClock="15:46:38"
+			time="00:11.678"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.PwdField' at 93;33.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.gittigidiyor.com']//input[#'pwdField']"
+				itempath=".//input[#'pwdField']"
+				fullname="PRJRepository.ApplicationUnderTest.PwdField"
+				id="e5909999640d460c947717dbf4e11275"
+				timeout="60000"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\BlankSpaces.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.279"
+			timeRelativeToTestModuleStartTime="00:12.279"
+			timeWallClock="15:46:39"
+			time="00:12.279"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence ' ' with focus on 'ApplicationUnderTest.PwdField'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.gittigidiyor.com']//input[#'pwdField']"
+				itempath=".//input[#'pwdField']"
+				fullname="PRJRepository.ApplicationUnderTest.PwdField"
+				id="e5909999640d460c947717dbf4e11275"
+				timeout="60000"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\BlankSpaces.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.513"
+			timeRelativeToTestModuleStartTime="00:12.513"
+			timeWallClock="15:46:39"
+			time="00:12.513"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.GsmData' at 89;32.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.gittigidiyor.com']//input[#'gsmData']"
+				itempath=".//input[#'gsmData']"
+				fullname="PRJRepository.ApplicationUnderTest.GsmData"
+				id="c2a04d02d1044486aceae0873b7a7d39"
+				timeout="60000"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\BlankSpaces.cs"
+				codeline="114"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.129"
+			timeRelativeToTestModuleStartTime="00:13.129"
+			timeWallClock="15:46:39"
+			time="00:13.129"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence ' ' with focus on 'ApplicationUnderTest.GsmData'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.gittigidiyor.com']//input[#'gsmData']"
+				itempath=".//input[#'gsmData']"
+				fullname="PRJRepository.ApplicationUnderTest.GsmData"
+				id="c2a04d02d1044486aceae0873b7a7d39"
+				timeout="60000"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\BlankSpaces.cs"
+				codeline="118"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.354"
+			timeRelativeToTestModuleStartTime="00:13.354"
+			timeWallClock="15:46:40"
+			time="00:13.354"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse scroll Vertical by -240 units.
+			</message>
+			<metainfo
+				itemindex="10"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\BlankSpaces.cs"
+				codeline="122"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.663"
+			timeRelativeToTestModuleStartTime="00:13.663"
+			timeWallClock="15:46:40"
+			time="00:13.663"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.SubmitForm' at 138;34.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.gittigidiyor.com']//input[#'SubmitForm']"
+				itempath=".//input[#'SubmitForm']"
+				fullname="PRJRepository.ApplicationUnderTest.SubmitForm"
+				id="4f80534b85ce4cf5b645bdcd959713a8"
+				timeout="60000"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\BlankSpaces.cs"
+				codeline="126"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

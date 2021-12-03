@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.2m"
+		durationms="70585"
+		type="root"
+		rid="47f6ce089e82fe8"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Tolunay"
+		rxversion="10.1.3.0"
+		host="DESKTOP-M9C71O2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="3.12.2021 15:06:41"
+		timestampiso="2021-12-03T12:06:41"
+		endtime="3.12.2021 15:07:52"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="VerifyAddToCart">
+		<detail>
+			VerifyAddToCart
+		</detail>
+		<errormessage>
+			Failed to find item 'PRJRepository.XiaomiRedmi9TCepTelefonuFiyatıVeO.Sepetim'. Please check that your whitelist allows Ranorex to access the process.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.251"
+			timeRelativeToTestModuleStartTime="00:06.251"
+			timeWallClock="15:06:48"
+			time="00:06.251"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'XiaomiRedmi9TCepTelefonuFiyatıVeO.AddToBasket' at 116;25.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.gittigidiyor.com']//button[#'add-to-basket']"
+				itempath=".//button[#'add-to-basket']"
+				fullname="PRJRepository.XiaomiRedmi9TCepTelefonuFiyatıVeO.AddToBasket"
+				id="c8f11a6baed64ab69848fa1c57fdcbae"
+				timeout="60000"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.171"
+			timeRelativeToTestModuleStartTime="00:09.171"
+			timeWallClock="15:06:50"
+			time="00:09.171"
+			level="Warn"
+			category="Click">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>(null)
+			</message>
+			<metainfo
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs"
+				codeline="83"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.967"
+			timeRelativeToTestModuleStartTime="00:09.967"
+			timeWallClock="15:06:51"
+			time="00:09.967"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse scroll Vertical by 720 units.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.278"
+			timeRelativeToTestModuleStartTime="00:10.278"
+			timeWallClock="15:06:52"
+			time="00:10.278"
+			level="Info"
+			category="Mouse"
+			errimg="images_VerifyAd_a5ceefae\VerifyAd_a5ceefae_0fd4210a_trace.jpg"
+			errthumb="images_VerifyAd_a5ceefae\VerifyAd_a5ceefae_0fd4210a_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'XiaomiRedmi9TCepTelefonuFiyatıVeO.Sepetim' at 29;3.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.gittigidiyor.com']//header[#'main-header']/div[3]/div/div/div/div[3]//a[@title='Sepetim']/div[@title='Sepetim']/div[@innertext='Sepetim']"
+				itempath=".//header[#'main-header']/div[3]/div/div/div/div[3]//a[@title='Sepetim']/div[@title='Sepetim']/div[@innertext='Sepetim']"
+				fullname="PRJRepository.XiaomiRedmi9TCepTelefonuFiyatıVeO.Sepetim"
+				id="0c4638d9fd4b4cea9c26d783571e13cb"
+				timeout="60000"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:10.336"
+			timeRelativeToTestModuleStartTime="01:10.336"
+			timeWallClock="15:07:52"
+			time="01:10.336"
+			level="Info"
+			category="User"
+			errimg="images_VerifyAd_a5ceefae\VerifyAd_a5ceefae_a461ce7e_trace.jpg"
+			errthumb="images_VerifyAd_a5ceefae\VerifyAd_a5ceefae_a461ce7e_trace_thumb.jpg">
+			<message>
+				Item 'Sepetim' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs"
+				codeline="91"
+				loglvl="Info"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:10.466"
+			timeRelativeToTestModuleStartTime="01:10.466"
+			timeWallClock="15:07:52"
+			time="01:10.466"
+			level="Error"
+			category="Module"
+			errimg="images_VerifyAd_a5ceefae\VerifyAd_a5ceefae_1d23a435_trace.jpg"
+			errthumb="images_VerifyAd_a5ceefae\VerifyAd_a5ceefae_1d23a435_trace_thumb.jpg">
+			<message>
+				Failed to find item 'PRJRepository.XiaomiRedmi9TCepTelefonuFiyatıVeO.Sepetim'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path '/dom[@domain='www.gittigidiyor.com']//header[#'main-header']/div[3]/div/div/div/div[3]//a[@title='Sepetim']/div[@title='Sepetim']/div[@innertext='Sepetim']' at step 'descendant-or-self::header[#'main-header']' after 156 attempts within 1m.
+			</message>
+			<metainfo
+				stacktrace="   konum: Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   konum: Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   konum: PRJ.PRJRepositoryFolders.XiaomiRedmi9TCepTelefonuFiyatıVeOAppFolder.get_Sepetim() C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\PRJRepository.cs içinde: satır 1114&#13;&#10;   konum: PRJ.VerifyAddToCart.Ranorex.Core.Testing.ITestModule.Run() C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs içinde: satır 91&#13;&#10;   konum: Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs"
+				codeline="91"
+				type="repoitem"
+				path="/dom[@domain='www.gittigidiyor.com']//header[#'main-header']/div[3]/div/div/div/div[3]//a[@title='Sepetim']/div[@title='Sepetim']/div[@innertext='Sepetim']"
+				itempath=".//header[#'main-header']/div[3]/div/div/div/div[3]//a[@title='Sepetim']/div[@title='Sepetim']/div[@innertext='Sepetim']"
+				fullname="PRJRepository.XiaomiRedmi9TCepTelefonuFiyatıVeO.Sepetim"
+				id="0c4638d9fd4b4cea9c26d783571e13cb"
+				timeout="60000"
+				failedStep="descendant-or-self::header[#'main-header']"
+				bestPathPrefix="/dom[@domain='www.gittigidiyor.com']"
+				loglvl="Error"
+				itemindex="2">
+			</metainfo>
+		</item>
+	</activity>
+</report>

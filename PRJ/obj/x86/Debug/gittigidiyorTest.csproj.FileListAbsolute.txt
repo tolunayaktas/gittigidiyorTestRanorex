@@ -1,0 +1,12 @@
+C:\Users\Tolunay\Desktop\orrnek\ronwell\PRJ\PRJ\bin\Debug\PRJ.rxtmg
+C:\Users\Tolunay\Desktop\orrnek\ronwell\PRJ\PRJ\bin\Debug\PRJ.rxtst
+C:\Users\Tolunay\Desktop\orrnek\ronwell\PRJ\PRJ\bin\Debug\gittigidiyorTest.exe.config
+C:\Users\Tolunay\Desktop\orrnek\ronwell\PRJ\PRJ\bin\Debug\gittigidiyorTest.xml
+C:\Users\Tolunay\Desktop\orrnek\ronwell\PRJ\PRJ\bin\Debug\gittigidiyorTest.exe
+C:\Users\Tolunay\Desktop\orrnek\ronwell\PRJ\PRJ\bin\Debug\gittigidiyorTest.pdb
+C:\Users\Tolunay\Desktop\orrnek\ronwell\PRJ\PRJ\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\Tolunay\Desktop\orrnek\ronwell\PRJ\PRJ\obj\x86\Debug\gittigidiyorTest.csproj.AssemblyReference.cache
+C:\Users\Tolunay\Desktop\orrnek\ronwell\PRJ\PRJ\obj\x86\Debug\gittigidiyorTest.csproj.CoreCompileInputs.cache
+C:\Users\Tolunay\Desktop\orrnek\ronwell\PRJ\PRJ\obj\x86\Debug\gittigidiyorTest.csproj.CopyComplete
+C:\Users\Tolunay\Desktop\orrnek\ronwell\PRJ\PRJ\obj\x86\Debug\gittigidiyorTest.exe
+C:\Users\Tolunay\Desktop\orrnek\ronwell\PRJ\PRJ\obj\x86\Debug\gittigidiyorTest.pdb

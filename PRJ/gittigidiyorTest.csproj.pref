@@ -1,0 +1,17 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="VerifyLogout.rxrec" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="PRJ.rxtst" />
+    <Element value="VerifyAddToWishlist.rxrec" />
+    <Element value="VerifyLogout.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections" />
+  </Properties>
+</Properties>

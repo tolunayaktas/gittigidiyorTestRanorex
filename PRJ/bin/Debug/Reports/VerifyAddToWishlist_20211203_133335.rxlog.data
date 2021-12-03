@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.1m"
+		durationms="66397"
+		type="root"
+		rid="21c1c2a00f49d00"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Tolunay"
+		rxversion="10.1.3.0"
+		host="DESKTOP-M9C71O2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="3.12.2021 13:33:39"
+		timestampiso="2021-12-03T10:33:39"
+		endtime="3.12.2021 13:34:46"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="VerifyAddToWishlist">
+		<detail>
+			VerifyAddToWishlist
+		</detail>
+		<errormessage>
+			Failed to find item 'PRJRepository.ApplicationUnderTest.AddProduct1'. Please check that your whitelist allows Ranorex to access the process.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.078"
+			timeRelativeToTestModuleStartTime="00:06.078"
+			timeWallClock="13:33:45"
+			time="00:06.078"
+			level="Info"
+			category="Mouse"
+			errimg="images_VerifyAd_ca7c7327\VerifyAd_ca7c7327_68cd63e1_trace.jpg"
+			errthumb="images_VerifyAd_ca7c7327\VerifyAd_ca7c7327_68cd63e1_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.AddProduct1' at 15;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.gittigidiyor.com']//div[#'__next']/main/div[2]/div[2]/div/div[2]/div/div[3]/div[3]/ul/li[2]/article//svg"
+				itempath=".//div[#'__next']/main/div[2]/div[2]/div/div[2]/div/div[3]/div[3]/ul/li[2]/article//svg"
+				fullname="PRJRepository.ApplicationUnderTest.AddProduct1"
+				id="e11d9587b6224ed3b89106761da8463d"
+				timeout="60000"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToWishlist.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:06.162"
+			timeRelativeToTestModuleStartTime="01:06.162"
+			timeWallClock="13:34:46"
+			time="01:06.162"
+			level="Info"
+			category="User"
+			errimg="images_VerifyAd_ca7c7327\VerifyAd_ca7c7327_7c977dc1_trace.jpg"
+			errthumb="images_VerifyAd_ca7c7327\VerifyAd_ca7c7327_7c977dc1_trace_thumb.jpg">
+			<message>
+				Item 'AddProduct1' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToWishlist.cs"
+				codeline="83"
+				loglvl="Info"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:06.259"
+			timeRelativeToTestModuleStartTime="01:06.259"
+			timeWallClock="13:34:46"
+			time="01:06.259"
+			level="Error"
+			category="Module"
+			errimg="images_VerifyAd_ca7c7327\VerifyAd_ca7c7327_5acb5830_trace.jpg"
+			errthumb="images_VerifyAd_ca7c7327\VerifyAd_ca7c7327_5acb5830_trace_thumb.jpg">
+			<message>
+				Failed to find item 'PRJRepository.ApplicationUnderTest.AddProduct1'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path '/dom[@domain='www.gittigidiyor.com']//div[#'__next']/main/div[2]/div[2]/div/div[2]/div/div[3]/div[3]/ul/li[2]/article//svg' at step 'descendant-or-self::div[#'__next']' after 190 attempts within 1m.
+			</message>
+			<metainfo
+				stacktrace="   konum: Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   konum: Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   konum: PRJ.PRJRepositoryFolders.ApplicationUnderTestAppFolder.get_AddProduct1() C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\PRJRepository.cs içinde: satır 360&#13;&#10;   konum: PRJ.VerifyAddToWishlist.Ranorex.Core.Testing.ITestModule.Run() C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToWishlist.cs içinde: satır 83&#13;&#10;   konum: Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToWishlist.cs"
+				codeline="83"
+				type="repoitem"
+				path="/dom[@domain='www.gittigidiyor.com']//div[#'__next']/main/div[2]/div[2]/div/div[2]/div/div[3]/div[3]/ul/li[2]/article//svg"
+				itempath=".//div[#'__next']/main/div[2]/div[2]/div/div[2]/div/div[3]/div[3]/ul/li[2]/article//svg"
+				fullname="PRJRepository.ApplicationUnderTest.AddProduct1"
+				id="e11d9587b6224ed3b89106761da8463d"
+				timeout="60000"
+				failedStep="descendant-or-self::div[#'__next']"
+				bestPathPrefix="/dom[@domain='www.gittigidiyor.com']"
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

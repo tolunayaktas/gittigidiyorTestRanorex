@@ -1,0 +1,614 @@
+﻿<repository
+id="1e2014c8-d961-4124-b391-5d63f51cddb4"
+name="PRJRepository">
+	<codegen
+	classname="PRJRepository"
+	namespace="PRJ">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="710f379c-4131-4f1c-87bf-6ea03949c1a4"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="spantag"
+		id="5bea6234-e11f-418a-aea7-8876489c739b"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		refimgid="a78ab601-7f1c-4427-a9cd-228345e99f12"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="ad9ddb13-0003-401a-ae14-618891bd2eee"
+			name="SuggestionEmailInputVerifier"
+			refimgid="2d7cc417-92f5-49f1-81d1-f347b0f488f6"
+			robustPath="/dom[@domain='www.gittigidiyor.com']//input[#'suggestion_email_input_verifier']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.gittigidiyor.com']//header[#'main-header']/div[3]/div/div/div/div[2]/form[@action='https://www.gittigidiyor.com/arama/']//button/span[@innertext='BUL']//input[#'suggestion_email_input_verifier']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="e5909999-640d-460c-9477-17dbf4e11275"
+			name="PwdField"
+			refimgid="1391e448-f3b6-491c-a434-d98cf5c8aefa"
+			robustPath="/dom[@domain='www.gittigidiyor.com']//input[#'pwdField']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.gittigidiyor.com']//header[#'main-header']/div[3]/div/div/div/div[2]/form[@action='https://www.gittigidiyor.com/arama/']//button/span[@innertext='BUL']//input[#'pwdField']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="7518e340-c8d6-4362-8449-3eb8fe42f7bb"
+			name="Container"
+			refimgid="af432d6f-caff-4754-85f8-8074175b76f9"
+			robustPath="/dom[@domain='www.gittigidiyor.com']//div[#'MainContainer']/div[3]/div[1]"
+			searchtimeout="30000ms">
+				/dom[@domain='www.gittigidiyor.com']//header[#'main-header']/div[3]/div/div/div/div[2]/form[@action='https://www.gittigidiyor.com/arama/']//button/span[@innertext='BUL']//div[#'MainContainer']/div[3]/div[1]
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="c2a04d02-d104-4486-acea-e0873b7a7d39"
+			name="GsmData"
+			refimgid="d17efb36-df85-4972-aec2-785ebee725ef"
+			robustPath="/dom[@domain='www.gittigidiyor.com']//input[#'gsmData']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.gittigidiyor.com']//header[#'main-header']/div[3]/div/div/div/div[2]/form[@action='https://www.gittigidiyor.com/arama/']//button/span[@innertext='BUL']//input[#'gsmData']
+			</item>
+			<folder
+			capname="form"
+			id="cf98228b-44d0-48c6-93ee-ca1a0f887895"
+			isrooted="True"
+			name="RegisterPost"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="divtag"
+				id="8970a133-adf0-460d-8633-5ae41c548312"
+				name="Name"
+				refimgid="2f902d1a-cd4c-4675-baaa-10744d4779bc"
+				robustPath="/dom[@domain='www.gittigidiyor.com']//form[#'RegisterPost']//div[@innertext='Adınız*']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.gittigidiyor.com']//header[#'main-header']/div[3]/div/div/div/div[2]/form[@action='https://www.gittigidiyor.com/arama/']//button/span[@innertext='BUL']//form[#'RegisterPost']/div/div/?/?/div[@innertext='Adınız*']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="divtag"
+				id="f0681014-ca8d-4f15-a88c-12ad95c8e082"
+				name="Surname"
+				refimgid="f139e270-e29d-4d4e-8b3a-0e1c243b2f3d"
+				robustPath="/dom[@domain='www.gittigidiyor.com']//form[#'RegisterPost']//div[@innertext='Soyadınız*']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.gittigidiyor.com']//header[#'main-header']/div[3]/div/div/div/div[2]/form[@action='https://www.gittigidiyor.com/arama/']//button/span[@innertext='BUL']//form[#'RegisterPost']/div/div/?/?/div[@innertext='Soyadınız*']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="6b584b49-572e-488a-8142-5ad749543069"
+				name="Checkmark"
+				refimgid="8316bafc-981e-49e4-9f14-53f461212545"
+				robustPath="/dom[@domain='www.gittigidiyor.com']//form[#'RegisterPost']//label/span[1]"
+				searchtimeout="30000ms">
+					/dom[@domain='www.gittigidiyor.com']//header[#'main-header']/div[3]/div/div/div/div[2]/form[@action='https://www.gittigidiyor.com/arama/']//button/span[@innertext='BUL']//form[#'RegisterPost']/div[8]//label/span[1]
+				</item>
+				<basepath>
+					/dom[@domain='www.gittigidiyor.com']//header[#'main-header']/div[3]/div/div/div/div[2]/form[@action='https://www.gittigidiyor.com/arama/']//button/span[@innertext='BUL']//form[#'RegisterPost']
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="4f80534b-85ce-4cf5-b645-bdcd959713a8"
+			name="SubmitForm"
+			refimgid="33f89bfd-fbc0-4b77-8e90-b8066a76e4ac"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.gittigidiyor.com']//header[#'main-header']/div[3]/div/div/div/div[2]/form[@action='https://www.gittigidiyor.com/arama/']//button/span[@innertext='BUL']/descendant-or-self::*/input[#'SubmitForm']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="8c93f2c9-f498-4810-92cc-7f67ff43af73"
+			name="SepeteEkle"
+			refimgid="5fead8bf-e6f6-4fb1-9546-28c0f2384ce8"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.gittigidiyor.com']//header[#'main-header']/div[3]/div/div/div/div[2]/form[@action='https://www.gittigidiyor.com/arama/']//button/span[@innertext='BUL']//div[7]/article/div//span[@innertext='Sepete Ekle']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="b9f5f84d-cb57-408b-a9ff-d14bb289ab3e"
+			name="SepeteEkle1"
+			refimgid="8318c47c-4b58-4fc7-9780-84acde43e0d0"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.gittigidiyor.com']//header[#'main-header']/div[3]/div/div/div/div[2]/form[@action='https://www.gittigidiyor.com/arama/']//button/span[@innertext='BUL']//div[8]/article//span[@innertext='Sepete Ekle']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="95dfb226-3001-4070-9ef1-58e31cf638aa"
+			name="Sepetim"
+			refimgid="1c05c11f-fb3f-4254-a285-02ab26bf01e8"
+			robustPath="/dom[@domain='www.gittigidiyor.com']//header[#'main-header']//div[@innertext='Sepetim']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.gittigidiyor.com']//header[#'main-header']/div[3]/div/div/div/div[2]/form[@action='https://www.gittigidiyor.com/arama/']//button/span[@innertext='BUL']//header[#'main-header']/div[3]/div/div/div/div[3]//a[@title='Sepetim']/div[@title='Sepetim']/div[@innertext='Sepetim']
+			</item>
+			<item
+			addcaps="unknown,webelement,svgtag"
+			capname="svgtag"
+			id="e11d9587-b622-4ed3-b891-06761da8463d"
+			name="AddProduct1"
+			refimgid="c892674f-3ae9-49ef-94b3-da701d11a273"
+			robustPath="/dom[@domain='www.gittigidiyor.com']//div[#'__next']//article/div[1]/div/svg"
+			searchtimeout="30000ms">
+				/dom[@domain='www.gittigidiyor.com']//header[#'main-header']/div[3]/div/div/div/div[2]/form[@action='https://www.gittigidiyor.com/arama/']//button/span[@innertext='BUL']//div[#'__next']/main/div[2]/div[3]/div/div[2]/div/div[3]/div[3]/ul/li[1]/article//svg
+			</item>
+			<item
+			addcaps="unknown,webelement,svgtag"
+			capname="svgtag"
+			id="1b284ca8-2747-4e4c-89a1-59814c0ae7db"
+			name="AddProduct2"
+			refimgid="7634ad38-5ba9-438f-ae1c-61a70a0a843c"
+			robustPath="/dom[@domain='www.gittigidiyor.com']//div[#'__next']/main/div[2]/div[3]/div/div[2]/div/div[3]/div[3]/ul/li[2]/article/div[1]/div/svg"
+			searchtimeout="30000ms">
+				/dom[@domain='www.gittigidiyor.com']//header[#'main-header']/div[3]/div/div/div/div[2]/form[@action='https://www.gittigidiyor.com/arama/']//button/span[@innertext='BUL']//div[#'__next']/main/div[2]/div[3]/div/div[2]/div/div[3]/div[3]/ul/li[2]/article//svg
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="dd49a5ca-65db-4338-8947-77519c1a7834"
+			name="MyAccount_Favourites"
+			refimgid="3f4dacf6-6224-4464-bfb1-d04cbc4d1647"
+			robustPath="/dom[@domain='www.gittigidiyor.com']//header[#'main-header']/div[4]/div/div/div/div[3]/div/div[2]"
+			searchtimeout="30000ms">
+				/dom[@domain='www.gittigidiyor.com']//header[#'main-header']/div[3]/div/div/div/div[2]/form[@action='https://www.gittigidiyor.com/arama/']//button/span[@innertext='BUL']//header[#'main-header']/div[4]/div/div/div/div[3]/div/div[2]
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="da030965-e589-48c0-8cbf-51253c5a6b8e"
+			name="Logout"
+			refimgid="5ffbbb09-e860-4798-bbc4-8d52c1dab049"
+			robustPath="/dom[@domain='www.gittigidiyor.com']//header[#'main-header']/div[4]/div/div/div/div[3]/div/div[2]"
+			searchtimeout="30000ms">
+				/dom[@domain='www.gittigidiyor.com']//header[#'main-header']/div[3]/div/div/div/div[2]/form[@action='https://www.gittigidiyor.com/arama/']//button/span[@innertext='BUL']//header[#'main-header']/div[4]/div/div/div/div[3]/div/div[2]
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="divtag"
+			id="11e371c5-bb12-4e6c-b4b3-af3a2234459c"
+			name="Sepetim1"
+			refimgid="000418a2-9138-4a7f-b206-9af95ca46084"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.gittigidiyor.com']//header[#'main-header']/div[3]/div/div/div/div[2]/form[@action='https://www.gittigidiyor.com/arama/']//button/span[@innertext='BUL']//header[#'main-header']/div[3]/div/div/div/div[3]//a[@title='Sepetim']/div[@title='Sepetim']/div[@innertext='Sepetim']
+			</item>
+			<basepath>
+				/dom[@domain='www.gittigidiyor.com']//header[#'main-header']/div[3]/div/div/div/div[2]/form[@action='https://www.gittigidiyor.com/arama/']//button/span[@innertext='BUL']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container"
+		capname="container"
+		id="16356e4f-f4cf-480c-a32d-641f9c650839"
+		isrooted="True"
+		name="Dropdown"
+		refimgid="db5a8313-f323-4421-a7c9-93b0fa0e27e8"
+		refpath="/container"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="8b279542-f0f1-4136-aa1a-39f173085e45"
+			name="Submit"
+			refimgid="12b8771e-db7c-4ae6-8941-024667381a39"
+			robustPath=""
+			searchtimeout="30000ms">
+				/container//input[@type='submit']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="5ea63a2f-0998-4e90-b728-2dd27fa5acf5"
+			name="InputTagK"
+			refimgid="00892ff3-9eb4-4ee4-b433-f9129a675c77"
+			refpath="/dom[@domain='www.gittigidiyor.com']//header[#'main-header']/div[3]/div/div/div/div[2]/form/div/div[1]/div[2]/input[@name='k']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/container//header[#'main-header']/div[3]/div/div/div/div[2]/form[@action='https://www.gittigidiyor.com/arama/']/div/div[1]/?/?/input[@name='k']
+			</item>
+			<item
+			addcaps="button,webelement,buttontag"
+			capname="buttontag"
+			id="dfde16d4-8b95-457a-acb0-019c18ba4676"
+			name="Search"
+			refimgid="be088432-0699-49ce-b270-7f097262ee4a"
+			refpath="/dom[@domain='www.gittigidiyor.com']//header[#'main-header']/div[3]/div/div/div/div[2]/form/div/div[2]/button"
+			robustPath="/container//header[#'main-header']//button"
+			searchtimeout="30000ms">
+				/container//header[#'main-header']/div[3]/div/div/div/div[2]/form[@action='https://www.gittigidiyor.com/arama/']//button
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="b77c762e-8ac7-4fe5-bcd4-767f9b8d3ed1"
+			name="Name"
+			refimgid="520d0e76-5152-4034-83d5-0072e2a62213"
+			refpath="/dom[@domain='www.gittigidiyor.com']//form[#'RegisterPost']/div[2]/div/div/div[2]/input[@name='name']"
+			robustPath="/container//form[#'RegisterPost']//input[@name='name']"
+			searchtimeout="30000ms">
+				/container//form[#'RegisterPost']/div[2]//input[@name='name']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="3ad08500-1b1e-44b9-ba51-26f33921b4e8"
+			name="Surname"
+			refimgid="a73b290d-7676-44f5-80e8-a7e111e30c9d"
+			refpath="/dom[@domain='www.gittigidiyor.com']//form[#'RegisterPost']/div[3]/div/div/div[2]/input[@name='surname']"
+			robustPath="/container//form[#'RegisterPost']//input[@name='surname']"
+			searchtimeout="30000ms">
+				/container//form[#'RegisterPost']/div[3]//input[@name='surname']
+			</item>
+			<basepath>
+				/container
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAABhUlEQVQ4T8WQvUsCYRzHb++F/oSGiMiiV4qWakiiqWyJGiK0cmxw
+kUhtMHqzTuWC0KKh2ZBqsTSHlt6oNkENBF+OoJZCKlO/PY/PGaIXCQ19jw/3e7787sPdcX/OkCOC
+LiGOVruIZqsIhS2BJj6BFnuCnBOoJ3OdJQYFL6LR+ohOWxS9y7cQ/FHkBNVaL2qmfajUeFFF7nno
+uULNoHOD/gK1uit0zx1hdGwBeuEALpcLnPk4gkAkjrtwDPfheAGF5xiug1HcEC5DInzBJ0zMO8Hz
+PLid82fkky26fupo+me3mGDbL0pVqgw+c1DRgNbOBI6zOClp8gvFD5WSE8zw0id4o6SkkV8uhb5B
+GkrNBhPsnkZISSO3LAcVZKBUrzHBnueBlDRyy3JIgqkVJtj3hEhJ/3ZGIv0LdCeLwcklJnAeBvCa
+TOEl+UF4J7xJszz53W+BevEEPeMC2lUWifWCuZS24VV0qDbRN6JjAhpBEGAymWA0GsvCYDDAbDbD
+7XYzwT+G474AUqqnq7MiKz0AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="imgtag"
+		id="76cbb887-abcd-462c-b806-56288b24be86"
+		isrooted="True"
+		name="GittiGidiyorTuerkiyeninOEncueAlışve"
+		refimgid="293f3c48-a4ca-45da-8d4e-7d8b8bc131e9"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="789fbf2c-a89d-4d83-b767-7638a357f69f"
+			name="SpanTagBUL"
+			refimgid="b04e8675-236f-4f6a-acfc-f8679b738662"
+			robustPath="/dom[@domain='www.gittigidiyor.com']//header[#'main-header']//span[@innertext='BUL']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.gittigidiyor.com']//div[#'__next']/main/div[2]/div[2]/div/div[2]/div/div[3]/div[3]/ul/li[1]/article/?/?/a[@title&gt;'Insiginia 4GB+64GB 8 &#199;ekirdek']//img[@alt&gt;'Insiginia 4GB+64GB 8 &#199;ekirdek']//header[#'main-header']/div[3]/div/div/div/div[2]/form[@action='https://www.gittigidiyor.com/arama/']//button/span[@innertext='BUL']
+			</item>
+			<item
+			addcaps="button,webelement,buttontag"
+			capname="buttontag"
+			id="829b14dd-000e-4219-b590-f0345fdc688a"
+			name="AddToBasket"
+			refimgid="f8e208cb-8872-4592-aeba-52426f73651d"
+			robustPath="/dom[@domain='www.gittigidiyor.com']//button[#'add-to-basket']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.gittigidiyor.com']//div[#'__next']/main/div[2]/div[2]/div/div[2]/div/div[3]/div[3]/ul/li[1]/article/?/?/a[@title&gt;'Insiginia 4GB+64GB 8 &#199;ekirdek']//img[@alt&gt;'Insiginia 4GB+64GB 8 &#199;ekirdek']//button[#'add-to-basket']
+			</item>
+			<basepath>
+				/dom[@domain='www.gittigidiyor.com']//div[#'__next']/main/div[2]/div[2]/div/div[2]/div/div[3]/div[3]/ul/li[1]/article/?/?/a[@title&gt;'Insiginia 4GB+64GB 8 &#199;ekirdek']//img[@alt&gt;'Insiginia 4GB+64GB 8 &#199;ekirdek']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="h2tag"
+		id="ec9a252d-0c03-4511-a8bb-33804167abb6"
+		isrooted="True"
+		name="GittiGidiyorTuerkiyeninOEncueAlışve1"
+		refimgid="4911c5a8-3e65-4d35-871d-13bde0105470"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,navtag"
+			capname="navtag"
+			id="21edaa5a-1ca1-4aeb-9b7f-a7564bbb9dcc"
+			name="F2r72j3JNDvfB"
+			refimgid="d37062cb-0322-4efc-9097-7950c1051d45"
+			robustPath="/dom[@domain='www.gittigidiyor.com']//header[#'main-header']/div[4]/div/div/div/div/nav"
+			searchtimeout="30000ms">
+				/dom[@domain='www.gittigidiyor.com']//div[#'__next']/main/div[2]/div[2]/div/div[2]/div/div[3]/div[3]/ul/li[1]/article/?/?/a[@title='Oppo A74 128 GB Siyah']//header/?/?/h2[@title='Oppo A74 128 GB Siyah']//header[#'main-header']/div[4]/div//nav
+			</item>
+			<item
+			addcaps="button,webelement,buttontag"
+			capname="buttontag"
+			id="bb50b27a-1f29-42c5-8dda-032658e9f0db"
+			name="AddToBasket"
+			refimgid="70e04d2c-40aa-4153-b8c4-90a857b7f1cb"
+			robustPath="/dom[@domain='www.gittigidiyor.com']//button[#'add-to-basket']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.gittigidiyor.com']//div[#'__next']/main/div[2]/div[2]/div/div[2]/div/div[3]/div[3]/ul/li[1]/article/?/?/a[@title='Oppo A74 128 GB Siyah']//header/?/?/h2[@title='Oppo A74 128 GB Siyah']//button[#'add-to-basket']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="eaf14ff6-a7bb-4d5d-8be3-2cd95d780d3a"
+			name="HttpsWwwGittigidiyorComSepetim"
+			refimgid="4b880028-2bec-4e69-a762-5beb29867178"
+			robustPath="/dom[@domain='www.gittigidiyor.com']//div[#'header_wrapper']/div[4]/div[3]/div/a[@href>'https://www.gittigidiyor.']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.gittigidiyor.com']//div[#'__next']/main/div[2]/div[2]/div/div[2]/div/div[3]/div[3]/ul/li[1]/article/?/?/a[@title='Oppo A74 128 GB Siyah']//header/?/?/h2[@title='Oppo A74 128 GB Siyah']//div[#'header_wrapper']/div[4]/div[3]/div/a[@href&gt;'https://www.gittigidiyor.']
+			</item>
+			<basepath>
+				/dom[@domain='www.gittigidiyor.com']//div[#'__next']/main/div[2]/div[2]/div/div[2]/div/div[3]/div[3]/ul/li[1]/article/?/?/a[@title='Oppo A74 128 GB Siyah']//header/?/?/h2[@title='Oppo A74 128 GB Siyah']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="b5e8af47-5b31-4617-8936-19add35394e2"
+		isrooted="True"
+		name="GittiGidiyorTuerkiyeninOEncueAlışve2"
+		refimgid="a167b9fa-2a5b-47ed-b311-450018aa2214"
+		refpath="/dom[@domain='www.gittigidiyor.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,h2tag"
+			capname="h2tag"
+			id="ac0bed3c-64d9-4e18-85c7-fceea316ddf5"
+			name="XiaomiRedmi9T64GBXiaomiTuerkiyeG"
+			refimgid="21c3d6f7-e668-4e03-a7a6-fb04026e938b"
+			refpath="/dom[@domain='www.gittigidiyor.com']//div[#'__next']/main/div/div/section[5]/section/div/div/div/div/div/div/div[2]/div[1]/div[7]/article/div/a/div/div[2]/header/hgroup/h2[@title>'Xiaomi Redmi 9T 64 GB (Xiaomi']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.gittigidiyor.com']//div[#'__next']/main/div/div/section[5]/section/div/div/div/div/div/div/div[2]/div[1]/div[7]/article/?/?/a[@title&gt;'Xiaomi Redmi 9T 64 GB (Xiaomi']/div/div[2]/header/?/?/h2[@title&gt;'Xiaomi Redmi 9T 64 GB (Xiaomi']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="eb4c045a-a353-4dcb-95ae-e6fd3877c463"
+			name="SueperFiyatlar"
+			refimgid="6a2cca65-9ae9-4053-8899-ee01fe75e7f3"
+			robustPath="/dom[@domain='www.gittigidiyor.com']//div[#'HeaderLinkContainer']/a[@innertext='Süper Fiyatlar']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.gittigidiyor.com']//div[#'HeaderLinkContainer']/a[@innertext='Süper Fiyatlar']
+			</item>
+			<item
+			addcaps="unknown,webelement,h2tag"
+			capname="h2tag"
+			id="2190d1b8-ec2b-4a3e-8b4b-ce7f88a7bb70"
+			name="WalkingpadR1Pro125HpKatlanabilirK"
+			refimgid="b60d9fb1-d38a-4bd2-b5d6-d012b9165adb"
+			refpath="/dom[@domain='www.gittigidiyor.com']//div[#'__next']/main/div[2]/div[2]/div/div[2]/div/div/div[2]/ul/li[1]/article/div[2]/a/div/div[2]/header/hgroup/h2[@title>'Walkingpad R1 Pro 1.25 Hp']"
+			robustPath="/dom[@domain='www.gittigidiyor.com']//div[#'__next']//h2[@title>'Walkingpad R1 Pro 1.25 Hp']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.gittigidiyor.com']//div[#'__next']/main/div[2]/div[2]/div/div[2]/div/div/div[2]/ul/li[1]/article/?/?/a[@title&gt;'Walkingpad R1 Pro 1.25 Hp']//header/?/?/h2[@title&gt;'Walkingpad R1 Pro 1.25 Hp']
+			</item>
+			<item
+			addcaps="button,webelement,buttontag"
+			capname="buttontag"
+			id="b80ece62-c474-4d9a-b7f9-854b8281a833"
+			name="AddToBasket"
+			refimgid="44389550-38a6-4539-9194-378b266e28bc"
+			refpath="/dom[@domain='www.gittigidiyor.com']//button[#'add-to-basket']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.gittigidiyor.com']//button[#'add-to-basket']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="cea0bca2-6c88-431c-b4d8-e14fb7ac7b65"
+			name="SpanTagBUL"
+			refimgid="735c3b7a-9ab1-4d18-bcb5-051634260acf"
+			refpath="/dom[@domain='www.gittigidiyor.com']//header[#'main-header']/div[3]/div/div/div/div[2]/form/div/div[2]/button/span[@innertext='BUL']"
+			robustPath="/dom[@domain='www.gittigidiyor.com']//header[#'main-header']//span[@innertext='BUL']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.gittigidiyor.com']//header[#'main-header']/div[3]/div/div/div/div[2]/form[@action='https://www.gittigidiyor.com/arama/']//button/span[@innertext='BUL']
+			</item>
+			<item
+			addcaps="unknown,webelement,h2tag"
+			capname="h2tag"
+			id="dc99a6b3-03cb-47ec-a915-ecb19aee314a"
+			name="AppleIPhone13512GBAppleTuerkiyeGa"
+			refimgid="248c5c1d-22cb-45ba-ba23-0c76285d8c7d"
+			refpath="/dom[@domain='www.gittigidiyor.com']//div[#'__next']/main/div[2]/div/div/div[2]/div/div[3]/div[3]/ul/li[1]/article/div[2]/a/div/div[2]/header/hgroup/h2[@title>'Apple iPhone 13 512GB (Apple']"
+			robustPath="/dom[@domain='www.gittigidiyor.com']//div[#'__next']//h2[@title>'Apple iPhone 13 512GB (Apple']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.gittigidiyor.com']//div[#'__next']/main/div[2]/div/div/div[2]/div/div[3]/div[3]/ul/li[1]/article/?/?/a[@title&gt;'Apple iPhone 13 512GB (Apple']//header/?/?/h2[@title&gt;'Apple iPhone 13 512GB (Apple']
+			</item>
+			<item
+			addcaps="unknown,webelement,svgtag"
+			capname="svgtag"
+			id="17981535-7a9a-41aa-9808-7712cfe1e98d"
+			name="SomeSvgTag"
+			refimgid="78b017ed-cb47-4618-99e1-d6548b32ea6c"
+			refpath="/dom[@domain='www.gittigidiyor.com']//div[#'__next']/main/div[2]/div[2]/div/div[2]/div/div[3]/div[3]/ul/li[1]/article/div[1]/div/svg"
+			robustPath="/dom[@domain='www.gittigidiyor.com']//div[#'__next']//article/div[1]/div/svg"
+			searchtimeout="30000ms">
+				/dom[@domain='www.gittigidiyor.com']//div[#'__next']/main/div[2]/div[2]/div/div[2]/div/div[3]/div[3]/ul/li[1]/article//svg
+			</item>
+			<item
+			addcaps="unknown,webelement,svgtag"
+			capname="svgtag"
+			id="379a92df-ee5a-4d74-a4b1-36a2e0b4cfe5"
+			name="SomeSvgTag1"
+			refimgid="ffea086f-6360-4eff-90f8-ae81991a0e6a"
+			refpath="/dom[@domain='www.gittigidiyor.com']//div[#'__next']/main/div[2]/div[2]/div/div[2]/div/div[3]/div[3]/ul/li[2]/article/div[1]/div/svg"
+			robustPath="/dom[@domain='www.gittigidiyor.com']//div[#'__next']/main/div[2]/div[2]/div/div[2]/div/div[3]/div[3]/ul/li[2]/article/div[1]/div/svg"
+			searchtimeout="30000ms">
+				/dom[@domain='www.gittigidiyor.com']//div[#'__next']/main/div[2]/div[2]/div/div[2]/div/div[3]/div[3]/ul/li[2]/article//svg
+			</item>
+			<basepath>
+				/dom[@domain='www.gittigidiyor.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="07a80ede-b8ae-4bf6-b8f8-f96872a27f78"
+		isrooted="True"
+		name="GittiGidiyorYardımSayfalarınaHoşgeldi"
+		refpath="/dom[@domain='yardim.gittigidiyor.net']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="f8b4060c-407f-48d7-adf2-4b754e9ddaa3"
+			name="CGGArticle"
+			refimgid="4ac8cc66-ff90-44b3-b788-6ae59d6a4d05"
+			refpath="/dom[@domain='yardim.gittigidiyor.net']//div[#'ggArticleWrapper']/div"
+			robustPath="/dom[@domain='yardim.gittigidiyor.net']//div[#'ggArticleWrapper']/div"
+			searchtimeout="30000ms">
+				/dom[@domain='yardim.gittigidiyor.net']//div[#'ggArticleWrapper']/div
+			</item>
+			<folder
+			capname="divtag"
+			id="8dee2067-7368-41fd-b2d9-bf7c3999f4b0"
+			isrooted="True"
+			name="Container"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement"
+				capname="webelement"
+				id="ceb546d1-1336-40f5-9acd-7da72cc5abf3"
+				name="LightningPrimitiveIcon"
+				refimgid="c4b86354-d133-462c-ac93-c42f82eaa9cc"
+				refpath="/dom[@domain='yardim.gittigidiyor.net']/body/div[3]/div[2]/div/div/div/div[3]/div/div/div/div/div/div/div/div[1]/div/button/tag[@tagname='lightning-primitive-icon']"
+				robustPath="/dom[@domain='yardim.gittigidiyor.net']//tag[@tagname='lightning-primitive-icon']"
+				searchtimeout="30000ms">
+					/dom[@domain='yardim.gittigidiyor.net']/body/div[3]/div[2]/div/div/div/div[3]/div/div/div/div/div/div/div/div[1]/?/?/button[@title='Ara']/tag[@tagname='lightning-primitive-icon']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="f4706315-07c6-427d-bf45-e2e0bf00bcc5"
+				name="Text"
+				refimgid="74626bef-ecbd-4907-b9f8-d4e2b9e1f7c5"
+				refpath="/dom[@domain='yardim.gittigidiyor.net']/body/div[3]/div[2]/div/div/div/div[3]/div/div/div/div/div/div/div/div[1]/div/input[@type='text']"
+				robustPath="/dom[@domain='yardim.gittigidiyor.net']//input[@type='text']"
+				searchtimeout="30000ms">
+					/dom[@domain='yardim.gittigidiyor.net']/body/div[3]/div[2]/div/div/div/div[3]/div/div/div/div/div/div/div/div[1]/?/?/input[@type='text']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="atag"
+				id="a4d8b9d3-b8fc-4ea5-b2c7-2458f04e1115"
+				name="ForceCommunitySearch"
+				refimgid="68dd1ee3-de7c-4c4c-9adb-bc55b5825ad4"
+				robustPath="/dom[@domain='yardim.gittigidiyor.net']//a[@innertext>' bana ulaşmadı. Ne yapmal']"
+				searchtimeout="30000ms">
+					/dom[@domain='yardim.gittigidiyor.net']/body/div[3]/div[2]/div/div/div/div[2]/div/div[2]/div/div/div/div[2]/div[2]/ul/li[3]/?/?/p/?/?/a[@innertext&gt;' bana ula&#351;mad&#305;. Ne yapmal']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="9f4742a2-093d-4bda-8fb1-77eec92e4e86"
+				name="ATagBanaUlaşmadıNeYapmalıyım"
+				refimgid="a4e4edd4-9a56-4188-b7c8-42b0e34f7849"
+				refpath="/dom[@domain='yardim.gittigidiyor.net']/body/div[3]/div[2]/div/div[2]/div/div[2]/div/div[2]/div/div/div/div[2]/div[2]/ul/li[3]/div/p/div/a[@innertext>' bana ulaşmadı. Ne yapmal']"
+				robustPath="/dom[@domain='yardim.gittigidiyor.net']/body/div[3]/div[2]/div"
+				searchtimeout="30000ms">
+					/dom[@domain='yardim.gittigidiyor.net']/body/div[3]/div[2]/div/div[2]/div/div[2]/div/div[2]/div/div/div/div[2]/?/?/ul/li[3]/?/?/p/?/?/a[@innertext&gt;' bana ula&#351;mad&#305;. Ne yapmal']
+				</item>
+				<basepath>
+					/dom[@domain='yardim.gittigidiyor.net']/body/div[3]/div[2]/div
+				</basepath>
+			</folder>
+			<basepath>
+				/dom[@domain='yardim.gittigidiyor.net']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

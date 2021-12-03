@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.1m"
+		durationms="68221"
+		type="root"
+		rid="453d93b6b16d58"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Tolunay"
+		rxversion="10.1.3.0"
+		host="DESKTOP-M9C71O2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="3.12.2021 15:34:52"
+		timestampiso="2021-12-03T12:34:52"
+		endtime="3.12.2021 15:36:00"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="vatc">
+		<detail>
+			vatc
+		</detail>
+		<errormessage>
+			Failed to find item 'PRJRepository.GittiGidiyorTuerkiyeninOEncueAlışve2.XiaomiRedmi9T64GBXiaomiTuerkiyeG'. Please check that your whitelist allows Ranorex to access the process.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.429"
+			timeRelativeToTestModuleStartTime="00:07.429"
+			timeWallClock="15:34:59"
+			time="00:07.429"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse scroll Vertical by -1680 units.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\vatc.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.766"
+			timeRelativeToTestModuleStartTime="00:07.766"
+			timeWallClock="15:35:00"
+			time="00:07.766"
+			level="Info"
+			category="Mouse"
+			errimg="images_vatc_202_77a1e69d\vatc_202_77a1e69d_f6826f23_trace.jpg"
+			errthumb="images_vatc_202_77a1e69d\vatc_202_77a1e69d_f6826f23_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'GittiGidiyorTuerkiyeninOEncueAlışve2.XiaomiRedmi9T64GBXiaomiTuerkiyeG' at 120;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.gittigidiyor.com']//div[#'__next']/main/div/div/section[5]/section/div/div/div/div/div/div/div[2]/div[1]/div[7]/article/?/?/a[@title>'Xiaomi Redmi 9T 64 GB (Xiaomi']/div/div[2]/header/?/?/h2[@title>'Xiaomi Redmi 9T 64 GB (Xiaomi']"
+				itempath=".//div[#'__next']/main/div/div/section[5]/section/div/div/div/div/div/div/div[2]/div[1]/div[7]/article/?/?/a[@title>'Xiaomi Redmi 9T 64 GB (Xiaomi']/div/div[2]/header/?/?/h2[@title>'Xiaomi Redmi 9T 64 GB (Xiaomi']"
+				fullname="PRJRepository.GittiGidiyorTuerkiyeninOEncueAlışve2.XiaomiRedmi9T64GBXiaomiTuerkiyeG"
+				id="ac0bed3c64d94e1885c7fceea316ddf5"
+				timeout="60000"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\vatc.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:07.849"
+			timeRelativeToTestModuleStartTime="01:07.849"
+			timeWallClock="15:36:00"
+			time="01:07.849"
+			level="Info"
+			category="User"
+			errimg="images_vatc_202_77a1e69d\vatc_202_77a1e69d_39e2c20a_trace.jpg"
+			errthumb="images_vatc_202_77a1e69d\vatc_202_77a1e69d_39e2c20a_trace_thumb.jpg">
+			<message>
+				Item 'XiaomiRedmi9T64GBXiaomiTuerkiyeG' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\vatc.cs"
+				codeline="87"
+				loglvl="Info"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:08.029"
+			timeRelativeToTestModuleStartTime="01:08.029"
+			timeWallClock="15:36:00"
+			time="01:08.029"
+			level="Error"
+			category="Module"
+			errimg="images_vatc_202_77a1e69d\vatc_202_77a1e69d_66de46ba_trace.jpg"
+			errthumb="images_vatc_202_77a1e69d\vatc_202_77a1e69d_66de46ba_trace_thumb.jpg">
+			<message>
+				Failed to find item 'PRJRepository.GittiGidiyorTuerkiyeninOEncueAl&#305;&#351;ve2.XiaomiRedmi9T64GBXiaomiTuerkiyeG'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path '/dom[@domain='www.gittigidiyor.com']//div[#'__next']/main/div/div/section[5]/section/div/div/div/div/div/div/div[2]/div[1]/div[7]/article/?/?/a[@title&gt;'Xiaomi Redmi 9T 64 GB (Xiaomi']/div/div[2]/header/?/?/h2[@title&gt;'Xiaomi Redmi 9T 64 GB (Xiaomi']' at step 'descendant-or-self::div[#'__next']' after 90 attempts within 1m.
+			</message>
+			<metainfo
+				stacktrace="   konum: Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   konum: Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   konum: PRJ.PRJRepositoryFolders.GittiGidiyorTuerkiyeninOEncueAlışve2AppFolder.get_XiaomiRedmi9T64GBXiaomiTuerkiyeG() C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\PRJRepository.cs içinde: satır 1062&#13;&#10;   konum: PRJ.vatc.Ranorex.Core.Testing.ITestModule.Run() C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\vatc.cs içinde: satır 87&#13;&#10;   konum: Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\vatc.cs"
+				codeline="87"
+				type="repoitem"
+				path="/dom[@domain='www.gittigidiyor.com']//div[#'__next']/main/div/div/section[5]/section/div/div/div/div/div/div/div[2]/div[1]/div[7]/article/?/?/a[@title>'Xiaomi Redmi 9T 64 GB (Xiaomi']/div/div[2]/header/?/?/h2[@title>'Xiaomi Redmi 9T 64 GB (Xiaomi']"
+				itempath=".//div[#'__next']/main/div/div/section[5]/section/div/div/div/div/div/div/div[2]/div[1]/div[7]/article/?/?/a[@title>'Xiaomi Redmi 9T 64 GB (Xiaomi']/div/div[2]/header/?/?/h2[@title>'Xiaomi Redmi 9T 64 GB (Xiaomi']"
+				fullname="PRJRepository.GittiGidiyorTuerkiyeninOEncueAlışve2.XiaomiRedmi9T64GBXiaomiTuerkiyeG"
+				id="ac0bed3c64d94e1885c7fceea316ddf5"
+				timeout="60000"
+				failedStep="descendant-or-self::div[#'__next']"
+				bestPathPrefix="/dom[@domain='www.gittigidiyor.com']"
+				loglvl="Error"
+				itemindex="1">
+			</metainfo>
+		</item>
+	</activity>
+</report>

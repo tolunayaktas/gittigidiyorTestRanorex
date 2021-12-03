@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="37.49s"
+		durationms="37493"
+		type="root"
+		rid="1cddfe48ba51533c"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Tolunay"
+		rxversion="10.1.3.0"
+		host="DESKTOP-M9C71O2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="2.12.2021 23:57:57"
+		timestampiso="2021-12-02T20:57:57"
+		endtime="2.12.2021 23:58:34"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="VerifyAddToCart">
+		<detail>
+			VerifyAddToCart
+		</detail>
+		<errormessage>
+			Item 'PRJRepository.ApplicationUnderTest.SepeteEkle' is no SpanTag.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.369"
+			timeRelativeToTestModuleStartTime="00:05.369"
+			timeWallClock="23:58:02"
+			time="00:05.369"
+			level="Info"
+			category="Mouse"
+			errimg="images_VerifyAd_3bd18c2f\VerifyAd_3bd18c2f_947b48a7_trace.jpg"
+			errthumb="images_VerifyAd_3bd18c2f\VerifyAd_3bd18c2f_947b48a7_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.SepeteEkle' at 54;4.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.gittigidiyor.com']//span[@innertext='Sepete Ekle']"
+				itempath=".//span[@innertext='Sepete Ekle']"
+				fullname="PRJRepository.ApplicationUnderTest.SepeteEkle"
+				id="8c93f2c9f498481092cc7f67ff43af73"
+				timeout="60000"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:37.341"
+			timeRelativeToTestModuleStartTime="00:37.341"
+			timeWallClock="23:58:34"
+			time="00:37.341"
+			level="Info"
+			category="User"
+			errimg="images_VerifyAd_3bd18c2f\VerifyAd_3bd18c2f_13887c7d_trace.jpg"
+			errthumb="images_VerifyAd_3bd18c2f\VerifyAd_3bd18c2f_13887c7d_trace_thumb.jpg">
+			<message>
+				Item 'SepeteEkle' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs"
+				codeline="83"
+				loglvl="Info"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:37.375"
+			timeRelativeToTestModuleStartTime="00:37.375"
+			timeWallClock="23:58:34"
+			time="00:37.375"
+			level="Error"
+			category="Module"
+			errimg="images_VerifyAd_3bd18c2f\VerifyAd_3bd18c2f_13887c7d_trace.jpg"
+			errthumb="images_VerifyAd_3bd18c2f\VerifyAd_3bd18c2f_13887c7d_trace_thumb.jpg">
+			<message>
+				Item 'PRJRepository.ApplicationUnderTest.SepeteEkle' is no SpanTag.<br/>The element does not support the required capability 'spantag'.
+			</message>
+			<metainfo
+				stacktrace="   konum: Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   konum: Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   konum: PRJ.PRJRepositoryFolders.ApplicationUnderTestAppFolder.get_SepeteEkle() C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\PRJRepository.cs içinde: satır 286&#13;&#10;   konum: PRJ.VerifyAddToCart.Ranorex.Core.Testing.ITestModule.Run() C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs içinde: satır 83&#13;&#10;   konum: Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs içinde"
+				codeline="83"
+				loglvl="Error"
+				id="8c93f2c9f498481092cc7f67ff43af73"
+				path="/dom[@domain='www.gittigidiyor.com']//span[@innertext='Sepete Ekle']"
+				fullname="PRJRepository.ApplicationUnderTest.SepeteEkle"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

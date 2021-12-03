@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="47.27s"
+		durationms="47265"
+		type="root"
+		rid="12ff1beb98b62f4d"
+		totalerrorcount="1"
+		totalwarningcount="7"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Tolunay"
+		rxversion="10.1.3.0"
+		host="DESKTOP-M9C71O2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="3.12.2021 14:19:05"
+		timestampiso="2021-12-03T11:19:05"
+		endtime="3.12.2021 14:19:52"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="VerifyAddToCart">
+		<detail>
+			VerifyAddToCart
+		</detail>
+		<errormessage>
+			Item 'PRJRepository.ApplicationUnderTest.Sepetim1' is no SpanTag.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.301"
+			timeRelativeToTestModuleStartTime="00:09.301"
+			timeWallClock="14:19:14"
+			time="00:09.301"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Dropdown.InputTagK' at 130;18.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/container//header[#'main-header']/div[3]/div/div/div/div[2]/form[@action='https://www.gittigidiyor.com/arama/']/div/div[1]/?/?/input[@name='k']"
+				itempath=".//header[#'main-header']/div[3]/div/div/div/div[2]/form[@action='https://www.gittigidiyor.com/arama/']/div/div[1]/?/?/input[@name='k']"
+				fullname="PRJRepository.Dropdown.InputTagK"
+				id="5ea63a2f09984e90b7282dd27fa5acf5"
+				timeout="60000"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.399"
+			timeRelativeToTestModuleStartTime="00:12.399"
+			timeWallClock="14:19:17"
+			time="00:12.399"
+			level="Warn"
+			category="Repository">
+			<message>
+				Failed to update the cached element for folder 'PRJRepository.Dropdown'. In order to analyze this issue, please contact support at https://www.ranorex.com/support-query/ with a copy of this report, the repository, and a snapshot of the automated application.
+			</message>
+			<metainfo
+				descendantPath=".//header[#'main-header']/div[3]/div/div/div/div[2]/form[@action='https://www.gittigidiyor.com/arama/']/div/div[1]/?/?/input[@name='k']"
+				invertedPath="self::input[@name='k']/parent::?/parent::?/parent::div/parent::div/parent::form[@action='https://www.gittigidiyor.com/arama/']/parent::div/parent::div/parent::div/parent::div/parent::div/parent::header[#'main-header']/ancestor-or-self::*"
+				basePathToCachedFolder="/container"
+				invertedBasePath="self::container/parent::host/self::*"
+				AbsoluteBasePath="/container"
+				folderSearchTimeout="30s"
+				folderElementCandidates.Count="5"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs"
+				codeline="83"
+				loglvl="Warn"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.478"
+			timeRelativeToTestModuleStartTime="00:12.478"
+			timeWallClock="14:19:17"
+			time="00:12.478"
+			level="Warn"
+			category="Click">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>(null)
+			</message>
+			<metainfo
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs"
+				codeline="83"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.210"
+			timeRelativeToTestModuleStartTime="00:13.210"
+			timeWallClock="14:19:18"
+			time="00:13.210"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'iphone 13' with focus on 'Dropdown.InputTagK'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/container//header[#'main-header']/div[3]/div/div/div/div[2]/form[@action='https://www.gittigidiyor.com/arama/']/div/div[1]/?/?/input[@name='k']"
+				itempath=".//header[#'main-header']/div[3]/div/div/div/div[2]/form[@action='https://www.gittigidiyor.com/arama/']/div/div[1]/?/?/input[@name='k']"
+				fullname="PRJRepository.Dropdown.InputTagK"
+				id="5ea63a2f09984e90b7282dd27fa5acf5"
+				timeout="60000"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.569"
+			timeRelativeToTestModuleStartTime="00:13.569"
+			timeWallClock="14:19:18"
+			time="00:13.569"
+			level="Warn"
+			category="Repository">
+			<message>
+				Failed to update the cached element for folder 'PRJRepository.Dropdown'. In order to analyze this issue, please contact support at https://www.ranorex.com/support-query/ with a copy of this report, the repository, and a snapshot of the automated application.
+			</message>
+			<metainfo
+				descendantPath=".//header[#'main-header']/div[3]/div/div/div/div[2]/form[@action='https://www.gittigidiyor.com/arama/']/div/div[1]/?/?/input[@name='k']"
+				invertedPath="self::input[@name='k']/parent::?/parent::?/parent::div/parent::div/parent::form[@action='https://www.gittigidiyor.com/arama/']/parent::div/parent::div/parent::div/parent::div/parent::div/parent::header[#'main-header']/ancestor-or-self::*"
+				basePathToCachedFolder="/container"
+				invertedBasePath="self::container/parent::host/self::*"
+				AbsoluteBasePath="/container"
+				folderSearchTimeout="30s"
+				folderElementCandidates.Count="5"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs"
+				codeline="87"
+				loglvl="Warn"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.996"
+			timeRelativeToTestModuleStartTime="00:13.996"
+			timeWallClock="14:19:19"
+			time="00:13.996"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Dropdown.Search' at 82;32.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/container//header[#'main-header']/div[3]/div/div/div/div[2]/form[@action='https://www.gittigidiyor.com/arama/']//button"
+				itempath=".//header[#'main-header']/div[3]/div/div/div/div[2]/form[@action='https://www.gittigidiyor.com/arama/']//button"
+				fullname="PRJRepository.Dropdown.Search"
+				id="dfde16d48b95457aacb0019c18ba4676"
+				timeout="60000"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.472"
+			timeRelativeToTestModuleStartTime="00:14.472"
+			timeWallClock="14:19:19"
+			time="00:14.472"
+			level="Warn"
+			category="Repository">
+			<message>
+				Failed to update the cached element for folder 'PRJRepository.Dropdown'. In order to analyze this issue, please contact support at https://www.ranorex.com/support-query/ with a copy of this report, the repository, and a snapshot of the automated application.
+			</message>
+			<metainfo
+				descendantPath=".//header[#'main-header']/div[3]/div/div/div/div[2]/form[@action='https://www.gittigidiyor.com/arama/']//button"
+				invertedPath="self::button/ancestor-or-self::form[@action='https://www.gittigidiyor.com/arama/']/parent::div/parent::div/parent::div/parent::div/parent::div/parent::header[#'main-header']/ancestor-or-self::*"
+				basePathToCachedFolder="/container"
+				invertedBasePath="self::container/parent::host/self::*"
+				AbsoluteBasePath="/container"
+				folderSearchTimeout="30s"
+				folderElementCandidates.Count="5"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs"
+				codeline="91"
+				loglvl="Warn"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.548"
+			timeRelativeToTestModuleStartTime="00:14.548"
+			timeWallClock="14:19:19"
+			time="00:14.548"
+			level="Warn"
+			category="Click">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>(null)
+			</message>
+			<metainfo
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs"
+				codeline="91"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.139"
+			timeRelativeToTestModuleStartTime="00:15.139"
+			timeWallClock="14:19:20"
+			time="00:15.139"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest' at 674;635.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.gittigidiyor.com']//header[#'main-header']/div[3]/div/div/div/div[2]/form[@action='https://www.gittigidiyor.com/arama/']//button/span[@innertext='BUL']"
+				itempath="/dom[@domain='www.gittigidiyor.com']//header[#'main-header']/div[3]/div/div/div/div[2]/form[@action='https://www.gittigidiyor.com/arama/']//button/span[@innertext='BUL']"
+				fullname="PRJRepository.ApplicationUnderTest.Self"
+				id="5bea6234e11f418aaea78876489c739b"
+				timeout="30000"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.308"
+			timeRelativeToTestModuleStartTime="00:15.308"
+			timeWallClock="14:19:20"
+			time="00:15.308"
+			level="Warn"
+			category="Click">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>(null)
+			</message>
+			<metainfo
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs"
+				codeline="95"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.908"
+			timeRelativeToTestModuleStartTime="00:15.908"
+			timeWallClock="14:19:20"
+			time="00:15.908"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse scroll Vertical by -720 units.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs"
+				codeline="98"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.218"
+			timeRelativeToTestModuleStartTime="00:16.218"
+			timeWallClock="14:19:21"
+			time="00:16.218"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest' at 1388;484.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.gittigidiyor.com']//header[#'main-header']/div[3]/div/div/div/div[2]/form[@action='https://www.gittigidiyor.com/arama/']//button/span[@innertext='BUL']"
+				itempath="/dom[@domain='www.gittigidiyor.com']//header[#'main-header']/div[3]/div/div/div/div[2]/form[@action='https://www.gittigidiyor.com/arama/']//button/span[@innertext='BUL']"
+				fullname="PRJRepository.ApplicationUnderTest.Self"
+				id="5bea6234e11f418aaea78876489c739b"
+				timeout="30000"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.376"
+			timeRelativeToTestModuleStartTime="00:16.376"
+			timeWallClock="14:19:21"
+			time="00:16.376"
+			level="Warn"
+			category="Click">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>(null)
+			</message>
+			<metainfo
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs"
+				codeline="103"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.992"
+			timeRelativeToTestModuleStartTime="00:16.992"
+			timeWallClock="14:19:22"
+			time="00:16.992"
+			level="Info"
+			category="Mouse"
+			errimg="images_VerifyAd_37327c3f\VerifyAd_37327c3f_25e909c3_trace.jpg"
+			errthumb="images_VerifyAd_37327c3f\VerifyAd_37327c3f_25e909c3_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Sepetim1' at 9;5.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.gittigidiyor.com']//header[#'main-header']/div[3]/div/div/div/div[2]/form[@action='https://www.gittigidiyor.com/arama/']//button/span[@innertext='BUL']//div[#'header_wrapper']/div[4]//span[@innertext='Sepetim']"
+				itempath=".//div[#'header_wrapper']/div[4]//span[@innertext='Sepetim']"
+				fullname="PRJRepository.ApplicationUnderTest.Sepetim1"
+				id="11e371c5bb124e6cb4b3af3a2234459c"
+				timeout="60000"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:47.116"
+			timeRelativeToTestModuleStartTime="00:47.116"
+			timeWallClock="14:19:52"
+			time="00:47.116"
+			level="Info"
+			category="User"
+			errimg="images_VerifyAd_37327c3f\VerifyAd_37327c3f_4ed024c4_trace.jpg"
+			errthumb="images_VerifyAd_37327c3f\VerifyAd_37327c3f_4ed024c4_trace_thumb.jpg">
+			<message>
+				Item 'Sepetim1' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs"
+				codeline="107"
+				loglvl="Info"
+				itemindex="6">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:47.134"
+			timeRelativeToTestModuleStartTime="00:47.134"
+			timeWallClock="14:19:52"
+			time="00:47.134"
+			level="Error"
+			category="Module"
+			errimg="images_VerifyAd_37327c3f\VerifyAd_37327c3f_4ed024c4_trace.jpg"
+			errthumb="images_VerifyAd_37327c3f\VerifyAd_37327c3f_4ed024c4_trace_thumb.jpg">
+			<message>
+				Item 'PRJRepository.ApplicationUnderTest.Sepetim1' is no SpanTag.<br/>The element does not support the required capability 'spantag'.
+			</message>
+			<metainfo
+				stacktrace="   konum: Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   konum: Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   konum: PRJ.PRJRepositoryFolders.ApplicationUnderTestAppFolder.get_Sepetim1() C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\PRJRepository.cs içinde: satır 456&#13;&#10;   konum: PRJ.VerifyAddToCart.Ranorex.Core.Testing.ITestModule.Run() C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs içinde: satır 107&#13;&#10;   konum: Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\VerifyAddToCart.cs içinde"
+				codeline="107"
+				loglvl="Error"
+				id="11e371c5bb124e6cb4b3af3a2234459c"
+				path="/dom[@domain='www.gittigidiyor.com']//header[#'main-header']/div[3]/div/div/div/div[2]/form[@action='https://www.gittigidiyor.com/arama/']//button/span[@innertext='BUL']//div[#'header_wrapper']/div[4]//span[@innertext='Sepetim']"
+				fullname="PRJRepository.ApplicationUnderTest.Sepetim1"
+				itemindex="6">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.1m"
+		durationms="68644"
+		type="root"
+		rid="a10a9e686090c72"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Tolunay"
+		rxversion="10.1.3.0"
+		host="DESKTOP-M9C71O2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="3.12.2021 15:41:54"
+		timestampiso="2021-12-03T12:41:54"
+		endtime="3.12.2021 15:43:02"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="vatc">
+		<detail>
+			vatc
+		</detail>
+		<errormessage>
+			Failed to find item 'PRJRepository.GittiGidiyorTuerkiyeninOEncueAlışve2.SueperFiyatlar'. Please check that your whitelist allows Ranorex to access the process.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.186"
+			timeRelativeToTestModuleStartTime="00:08.186"
+			timeWallClock="15:42:02"
+			time="00:08.186"
+			level="Info"
+			category="Mouse"
+			errimg="images_vatc_202_77a6e6a2\vatc_202_77a6e6a2_de516ba9_trace.jpg"
+			errthumb="images_vatc_202_77a6e6a2\vatc_202_77a6e6a2_de516ba9_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'GittiGidiyorTuerkiyeninOEncueAlışve2.SueperFiyatlar' at 44;6.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.gittigidiyor.com']//header[#'main-header']//nav/ul/?/?/a[@innertext='Süper Fiyatlar']"
+				itempath=".//header[#'main-header']//nav/ul/?/?/a[@innertext='Süper Fiyatlar']"
+				fullname="PRJRepository.GittiGidiyorTuerkiyeninOEncueAlışve2.SueperFiyatlar"
+				id="eb4c045aa3534dcb95aee6fd3877c463"
+				timeout="60000"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\vatc.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:08.277"
+			timeRelativeToTestModuleStartTime="01:08.277"
+			timeWallClock="15:43:02"
+			time="01:08.277"
+			level="Info"
+			category="User"
+			errimg="images_vatc_202_77a6e6a2\vatc_202_77a6e6a2_6270eb27_trace.jpg"
+			errthumb="images_vatc_202_77a6e6a2\vatc_202_77a6e6a2_6270eb27_trace_thumb.jpg">
+			<message>
+				Item 'SueperFiyatlar' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\vatc.cs"
+				codeline="83"
+				loglvl="Info"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:08.459"
+			timeRelativeToTestModuleStartTime="01:08.459"
+			timeWallClock="15:43:02"
+			time="01:08.459"
+			level="Error"
+			category="Module"
+			errimg="images_vatc_202_77a6e6a2\vatc_202_77a6e6a2_1297d90c_trace.jpg"
+			errthumb="images_vatc_202_77a6e6a2\vatc_202_77a6e6a2_1297d90c_trace_thumb.jpg">
+			<message>
+				Failed to find item 'PRJRepository.GittiGidiyorTuerkiyeninOEncueAlışve2.SueperFiyatlar'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path '/dom[@domain='www.gittigidiyor.com']//header[#'main-header']//nav/ul/?/?/a[@innertext='Süper Fiyatlar']' at step 'descendant-or-self::header[#'main-header']' after 88 attempts within 1m.
+			</message>
+			<metainfo
+				stacktrace="   konum: Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   konum: Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   konum: PRJ.PRJRepositoryFolders.GittiGidiyorTuerkiyeninOEncueAlışve2AppFolder.get_SueperFiyatlar() C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\PRJRepository.cs içinde: satır 1092&#13;&#10;   konum: PRJ.vatc.Ranorex.Core.Testing.ITestModule.Run() C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\vatc.cs içinde: satır 83&#13;&#10;   konum: Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\Tolunay\Documents\Ranorex\RanorexStudio Projects\PRJ\PRJ\vatc.cs"
+				codeline="83"
+				type="repoitem"
+				path="/dom[@domain='www.gittigidiyor.com']//header[#'main-header']//nav/ul/?/?/a[@innertext='Süper Fiyatlar']"
+				itempath=".//header[#'main-header']//nav/ul/?/?/a[@innertext='Süper Fiyatlar']"
+				fullname="PRJRepository.GittiGidiyorTuerkiyeninOEncueAlışve2.SueperFiyatlar"
+				id="eb4c045aa3534dcb95aee6fd3877c463"
+				timeout="60000"
+				failedStep="descendant-or-self::header[#'main-header']"
+				bestPathPrefix="/dom[@domain='www.gittigidiyor.com']"
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>
